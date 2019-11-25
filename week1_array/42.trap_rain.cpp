@@ -1,5 +1,8 @@
 #include "common.h"
 
+#define SOLUTION 3
+
+#if SOLUTION == 1
 class Solution {
 public:
   int trap(vector<int>& height) {
@@ -24,6 +27,59 @@ public:
     return ans;
   }
 };
+#elif SOLUTION == 2
+
+// dynamic programming
+// https://leetcode-cn.com/problems/trapping-rain-water/solution/jie-yu-shui-by-leetcode/
+class Solution {
+public:
+  int trap(vector<int>& height) {
+    const int len = height.size();
+    if (len < 3) return 0;
+    int left = height[0], right = height.back();
+    int i = 0, j = len - 1;
+    int ans = 0;
+    while (j - i > 1) {
+      if (height[i] < height[j]) {
+        ++i;
+        int t = min(left, right) - height[i];
+        if (t > 0) ans += t;
+        if (height[i] > left) left = height[i];
+      } else {
+        --j;
+        int t = min(left, right) - height[j];
+        if (t > 0) ans += t;
+        if (height[j] > right) right = height[j];
+      }
+    }
+    return ans;
+  }
+};
+
+#elif SOLUTION == 3
+
+class Solution {
+public:
+  int trap(vector<int>& height) {
+    const int len = height.size();
+    if (len < 3) return 0;
+    int left = height[0], right = height.back();
+    int i = 0, j = len - 1;
+    int ans = 0;
+    while (i < j) {
+      if (height[i] < height[j]) {
+        height[i] < left ? ans += left - height[i] : left = height[i];
+        ++i;
+      } else {
+        height[j] < right ? ans += right - height[j] : right = height[j];
+        --j;
+      }
+    }
+    return ans;
+  }
+};
+
+#endif
 
 int main() {
   vector<int> height;
