@@ -6,7 +6,7 @@ struct ListNode {
   ListNode(int x) : val(x), next(NULL) {}
 };
 
-#define SOLUTION 1
+#define SOLUTION 3
 #if SOLUTION == 1
 // 注意链表末尾的判断
 class Solution {
@@ -81,19 +81,19 @@ public:
 
 #elif SOLUTION == 3
 
-// TODO: QuickSort
-/*
+// Bad Quick Sort, More than 1s :( [WIP]
+// 每次递归至少排好一个
 class Solution {
 public:
   ListNode* sortList(ListNode* head) {
-    return QuickSort(head, nullptr);
+    return QuickSort(head);
   }
-  ListNode* QuickSort(ListNode *start, ListNode *end) {
-    if (!start || start == end || start->next == end) return start;
+  ListNode* QuickSort(ListNode *start) {
+    if (!start || !start->next) return start;
     ListNode *left = nullptr, *right = nullptr;
     ListNode **pleft = &left, **pright = &right;
     int k = start->val;
-    for (ListNode *p = start; p != end; p = p->next) {
+    for (ListNode *p = start; p; p = p->next) {
       if (p->val <= k) {
         *pleft = p;
         pleft = &((*pleft)->next);
@@ -102,14 +102,31 @@ public:
         pright = &((*pright)->next);
       }
     }
-    QuickSort(left, *pleft);
-    QuickSort(right, *pright);
-    *pleft = right;
+    *pleft = nullptr;
     *pright = nullptr;
+    if (!right) {
+      // start is maximum
+      left = QuickSort(start->next); 
+      right = start;
+      start->next = nullptr;
+    } else {
+      left = QuickSort(left);
+      right = QuickSort(right);
+    }
+    if (left) {
+      if (right) {
+        ListNode *p = left;
+        while (p->next) {
+          p = p->next;
+        }
+        p->next = right;
+      }
+    } else {
+      return right;
+    }
     return left;
   }
 };
-*/
 
 #endif
 
