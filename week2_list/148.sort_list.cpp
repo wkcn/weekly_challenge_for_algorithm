@@ -6,7 +6,7 @@ struct ListNode {
   ListNode(int x) : val(x), next(NULL) {}
 };
 
-#define SOLUTION 3
+#define SOLUTION 4
 #if SOLUTION == 1
 // 注意链表末尾的判断
 class Solution {
@@ -125,6 +125,53 @@ public:
       return right;
     }
     return left;
+  }
+};
+
+#elif SOLUTION == 4
+
+// Good Quick Sort 44ms
+class Solution {
+public:
+  ListNode* sortList(ListNode* head) {
+    if (!head || !head->next) return head;
+    ListNode left(0), mid(0), right(0); 
+    ListNode *pleft=&left, *pmid=&mid, *pright=&right;
+    int pv = head->val;
+    for (;head;head=head->next) {
+      int &val = head->val;
+      if (val < pv) {
+        AddNode(pleft, head);
+      } else if (val == pv) {
+        AddNode(pmid, head);
+      } else {
+        AddNode(pright, head);
+      }
+    }
+    pleft->next = nullptr;
+    pmid->next = nullptr;
+    pright->next = nullptr;
+    left.next = sortList(left.next);
+    right.next = sortList(right.next);
+    // concat left->next + mid->next + right->next
+    ListNode res(0);
+    ListNode *p = &res;
+    AddLink(p, left.next);
+    AddLink(p, mid.next);
+    AddLink(p, right.next);
+    return res.next;
+  }
+private:
+  inline void AddNode(ListNode *&r, ListNode *p) {
+    r->next = p;
+    r = p;
+  }
+  void AddLink(ListNode *&r, ListNode *p) {
+    if (p) {
+      r->next = p;
+      r = p;
+      while (r->next) r = r->next;
+    }
   }
 };
 
