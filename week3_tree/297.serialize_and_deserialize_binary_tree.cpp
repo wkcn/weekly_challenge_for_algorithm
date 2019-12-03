@@ -32,8 +32,7 @@ public:
     if (data.empty()) return nullptr;
     int len = data.size();
     int n = len / sizeof(Record);
-    vector<Record> rec(n);
-    memcpy(rec.data(), &data[0], len);
+    const Record *rec = reinterpret_cast<const Record*>(data.c_str());
     vector<TreeNode*> ts;
     for (int i = 0; i < n; ++i) {
       ts.push_back(new TreeNode(rec[i].val));
@@ -54,10 +53,7 @@ private:
     rec.push_back({});
     int left = serialize_impl(root->left, rec);
     int right = serialize_impl(root->right, rec);
-    Record &r = rec[id];
-    r.val = root->val;
-    r.left = left;
-    r.right = right;
+    rec[id] = {root->val, left, right};
     return id;
   }
 };
