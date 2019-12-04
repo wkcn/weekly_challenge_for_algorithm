@@ -68,7 +68,7 @@ Index|Title|Solution(s)|Acceptance|Difficulty
     solved = list(solved.items())
     def key_for_solved(x):
         problem = problems[x[0]]
-        acc = float(problem.acceptance[:-1])
+        acc = 100.0 - float(problem.acceptance[:-1])
         difficulty = difficulty2level(problem.difficulty)
         return difficulty * 100 + acc
     solved.sort(key=key_for_solved)
