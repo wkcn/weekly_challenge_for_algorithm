@@ -99,7 +99,7 @@ def gen_readme():
             weeks.append(dirname)
     weeks.sort(key=lambda x : -int(x[4:x.index('_')]))
     out = """# Weekly Challenge for Algorithm
-Thank [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)\n"""
+Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)\n"""
     for week in weeks:
         out += gen_readme_for_week(week)
     return out

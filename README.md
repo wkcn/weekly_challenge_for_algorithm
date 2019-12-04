@@ -1,5 +1,5 @@
 # Weekly Challenge for Algorithm
-Thank [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)
+Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)
 ## Week3 Tree
 Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
