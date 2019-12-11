@@ -6,6 +6,7 @@
 #include <vector>
 #include <random>
 #include <string>
+#include <sstream>
 #include <queue>
 #include <regex>
 #include <set>
