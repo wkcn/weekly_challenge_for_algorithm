@@ -59,8 +59,11 @@ Index|Title|Solution(s)|Acceptance|Difficulty
         name, ext = os.path.splitext(fname)
         if ext in exts:
             code_type = exts[ext]
-            si = name.index('.')
-            pid = int(name[:si])
+            try:
+                si = name.index('.')
+                pid = int(name[:si])
+            except:
+                continue
             assert pid in problems, pid
             if pid not in solved:
                 solved[pid] = set()
@@ -101,7 +104,7 @@ def gen_readme():
     out = """# Weekly Challenge for Algorithm
 Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)\n"""
     for week in weeks:
-        out += gen_readme_for_week(week)
+        out += '\n' + gen_readme_for_week(week)
     return out
 
 

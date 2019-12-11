@@ -1,5 +1,20 @@
 # Weekly Challenge for Algorithm
 Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)
+
+## Week4 Backtrack
+Index|Title|Solution(s)|Acceptance|Difficulty
+-|-|-|-|-
+401|[Binary Watch](https://leetcode.com/problems/binary-watch)|[C++](./week4_backtrack/401.binary-watch.cpp)|46.0%|Easy
+687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)|[C++](./week4_backtrack/687.longest-univalue-path.cpp)|34.8%|Easy
+46|[Permutations](https://leetcode.com/problems/permutations)|[C++](./week4_backtrack/46.permutations.cpp)|58.8%|Medium
+22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[C++](./week4_backtrack/22.generate-parentheses.cpp)|58.4%|Medium
+78|[Subsets](https://leetcode.com/problems/subsets)|[C++](./week4_backtrack/78.subsets.cpp)|56.5%|Medium
+698|[Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)|[C++](./week4_backtrack/698.partition-to-k-equal-sum-subsets.cpp)|44.2%|Medium
+17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[C++](./week4_backtrack/17.letter-combinations-of-a-phone-number.cpp)|43.9%|Medium
+93|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)|[C++](./week4_backtrack/93.restore-ip-addresses.cpp)|33.0%|Medium
+726|[Number of Atoms](https://leetcode.com/problems/number-of-atoms)|[C++](./week4_backtrack/726.number-of-atoms.cpp)|46.4%|Hard
+51|[N-Queens](https://leetcode.com/problems/n-queens)|[C++](./week4_backtrack/51.n-queens.cpp)|42.5%|Hard
+
 ## Week3 Tree
 Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
@@ -13,6 +28,7 @@ Index|Title|Solution(s)|Acceptance|Difficulty
 145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal)|[C++](./week3_tree/145.binary_tree_postorder_traversal.cpp)|51.3%|Hard
 297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[C++](./week3_tree/297.serialize_and_deserialize_binary_tree.cpp)|44.0%|Hard
 124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum)|[C++](./week3_tree/124.binary_tree_maximum_path_sum.cpp)|31.7%|Hard
+
 ## Week2 List
 Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
@@ -26,6 +42,7 @@ Index|Title|Solution(s)|Acceptance|Difficulty
 2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers)|[C++](./week2_list/2.add_two_list_numbers.cpp)|32.3%|Medium
 138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[C++](./week2_list/138.copy_random_list.cpp)|30.8%|Medium
 25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)|[C++](./week2_list/25.reverse_k_group.cpp)|38.7%|Hard
+
 ## Week1 Array
 Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
