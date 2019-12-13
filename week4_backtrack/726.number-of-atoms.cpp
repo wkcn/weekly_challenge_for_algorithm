@@ -1,5 +1,8 @@
 #include "common.h"
 
+#define SOLUTION 2
+
+#if SOLUTION == 1
 class Solution {
 public:
   string countOfAtoms(string formula) {
@@ -72,8 +75,73 @@ private:
     return 1;
   }
 };
-
-// TODO: Iteration Stack
+#elif SOLUTION == 2
+class Solution {
+public:
+  string countOfAtoms(string formula) {
+    stack<map<string, int> > st;
+    st.push({});
+    int i = 0;
+    const int len = formula.size();
+    while (i < len) {
+      string t = get_atom(formula, i);
+      if (t[0] == '(') {
+        st.push({});
+      } else if (t[0] == ')') {
+        int num = get_num(formula, i);
+        map<string, int> ma = std::move(st.top()); st.pop();
+        for (auto &p : ma) {
+          st.top()[p.first] += p.second * num;
+        }
+      } else {
+        int num = get_num(formula, i);
+        st.top()[t] += num;
+      }
+    }
+    string out;
+    for (auto &p : st.top()) {
+      out += p.first;
+      if (p.second > 1) out += to_string(p.second);
+    }
+    return out;
+  }
+private:
+  string get_atom(const string &s, int &i) {
+    const int len = s.size();
+    string buf;
+    if (i < len) {
+      const char &c = s[i];
+      ++i;
+      if (c == '(' || c == ')') return {c};
+      buf += c;
+      while (i < len) {
+        const char &c = s[i];
+        if (c >= 'a' && c <= 'z') {
+          buf += c; ++i;
+        } else break;
+      }
+    }
+    return buf;
+  }
+  int get_num(const string &formula, int &i) {
+    const int len = formula.size();
+    const char &c = formula[i];
+    if (c >= '0' && c <= '9') {
+      int v = c - '0';
+      ++i;
+      while (i < len) {
+        const char &c = formula[i];
+        if (c >= '0' && c <= '9') {
+          v = v * 10 + c - '0';
+          ++i;
+        } else break;
+      }
+      return v;
+    }
+    return 1;
+  }
+};
+#endif
 
 int main() {
   string formula;
