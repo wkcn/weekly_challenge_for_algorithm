@@ -45,8 +45,18 @@ def read_problems_list(fname):
 list_fname = './problems.lst'
 problems = read_problems_list(list_fname)
 
+TERMS = ['DFS', 'BFS']
+TERMS_CAP = [s.capitalize() for s in TERMS]
+
 def gen_readme_for_week(week):
-    week_name = ' '.join([s.capitalize() for s in week.split('_')])
+    def cap(s):
+        s = s.capitalize()
+        try:
+            return TERMS[TERMS_CAP.index(s)]
+        except:
+            pass
+        return s.capitalize()
+    week_name = ' '.join([cap(s) for s in week.split('_')])
     out = """## {}
 Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
