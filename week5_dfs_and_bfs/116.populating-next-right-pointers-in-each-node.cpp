@@ -16,6 +16,9 @@ public:
         : val(_val), left(_left), right(_right), next(_next) {}
 };
 
+#define SOLUTION 2
+
+#if SOLUTION == 1
 class Solution {
 public:
   Node* connect(Node* root) {
@@ -28,8 +31,30 @@ public:
     return root;
   }
 };
+#elif SOLUTION == 2
+// O(1) memory 
+class Solution {
+public:
+  Node* connect(Node* root) {
+    if (!root) return nullptr;
+    Node *r = root, *t = root;
+    while (r) {
+      while (t) {
+        if (t->left) {
+          t->left->next = t->right;
+          t->right->next = t->next ? t->next->left : nullptr;
+          t = t->next;
+        } else {
+          return root; // leaf
+        }
+      }
+      r = t = r->left;
+    }
+    return root;
+  }
+};
+#endif
 
-// TODO: O(1) memory 
 // https://leetcode.com/problems/populating-next-right-pointers-in-each-node/discuss/37461/Java-solution-with-O(1)-memory%2B-O(n)-time
 // https://leetcode.com/problems/populating-next-right-pointers-in-each-node/discuss/37578/My-simple-non-iterative-C%2B%2B-code-with-O(1)-memory
 // 利用next的特性进行遍历, next, left
