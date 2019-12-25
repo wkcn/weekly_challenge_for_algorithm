@@ -13,6 +13,7 @@ Index|Title|Solution(s)|Acceptance|Difficulty
 139|[Word Break](https://leetcode.com/problems/word-break)|[C++](./week6_dynamic_programming/139.word-break.cpp)|37.4%|Medium
 322|[Coin Change](https://leetcode.com/problems/coin-change)|[C++](./week6_dynamic_programming/322.coin-change.cpp)|32.7%|Medium
 5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)|[C++](./week6_dynamic_programming/5.longest-palindromic-substring.cpp)|28.4%|Medium
+72|[Edit Distance](https://leetcode.com/problems/edit-distance)|[C++](./week6_dynamic_programming/72.edit-distance.cpp)|40.4%|Hard
 
 ## Week5 DFS And BFS
 Index|Title|Solution(s)|Acceptance|Difficulty
