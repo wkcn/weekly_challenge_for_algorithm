@@ -1,6 +1,15 @@
 # Weekly Challenge for Algorithm
 Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)
 
+## Week7 Greedy
+Index|Title|Solution(s)|Acceptance|Difficulty
+-|-|-|-|-
+122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[C++](./week7_greedy/122.best-time-to-buy-and-sell-stock-ii.cpp)|53.7%|Easy
+455|[Assign Cookies](https://leetcode.com/problems/assign-cookies)|[C++](./week7_greedy/455.assign-cookies.cpp)|48.9%|Easy
+376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence)|[C++](./week7_greedy/376.wiggle-subsequence.cpp)|38.5%|Medium
+134|[Gas Station](https://leetcode.com/problems/gas-station)|[C++](./week7_greedy/134.gas-station.cpp)|35.8%|Medium
+55|[Jump Game](https://leetcode.com/problems/jump-game)|[C++](./week7_greedy/55.jump-game.cpp)|32.9%|Medium
+
 ## Week6 Dynamic Programming
 Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
