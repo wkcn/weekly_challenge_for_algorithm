@@ -126,7 +126,7 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 [@wkcn](https://github.com/wkcn) collected problems from week 8.
 
-## Weekly Topics
+## Topics
 """
     for week in weeks:
         out += "\n[{week_name}]({path})\n".format(week_name=get_weekname(week), path=os.path.join('./', week))

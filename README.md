@@ -5,7 +5,7 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 [@wkcn](https://github.com/wkcn) collected problems from week 8.
 
-## Weekly Topics
+## Topics
 
 [Week 8 - Binary Search](./week8_binary_search)
 
