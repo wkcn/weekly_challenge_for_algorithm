@@ -129,7 +129,7 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 ## Weekly Topics
 """
     for week in weeks:
-        out += "[{week_name}]({path})\n".format(week_name=get_weekname(week), path=os.path.join('./', week))
+        out += "\n[{week_name}]({path})\n".format(week_name=get_weekname(week), path=os.path.join('./', week))
     for week in weeks:
         week_readme = gen_readme_for_week(week)
         with open(os.path.join(week, 'README.md'), 'w') as fout:
