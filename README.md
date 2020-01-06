@@ -1,9 +1,9 @@
 # Weekly Challenge for Algorithm
 Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)
 
-[@shicheng0829](https://github.com/shicheng0829) collected problems from week 1 to week 7.
+[@shicheng0829](https://github.com/shicheng0829) collected problems during week 1 and week 7.
 
-[@wkcn](https://github.com/wkcn) collected problems from week 8.
+[@wkcn](https://github.com/wkcn) collects problems since week 8.
 
 ## Topics
 
