@@ -48,15 +48,23 @@ problems = read_problems_list(list_fname)
 TERMS = ['DFS', 'BFS']
 TERMS_CAP = [s.capitalize() for s in TERMS]
 
+def cap(s):
+    s = s.capitalize()
+    try:
+        return TERMS[TERMS_CAP.index(s)]
+    except:
+        pass
+    return s.capitalize()
+
+def get_weekname(week):
+    sp = week.split('_')
+    assert sp[0].startswith('week')
+    prefix = 'Week {} - '.format(sp[0][4:])
+    week_name = prefix + ' '.join([cap(s) for s in sp[1:]])
+    return week_name
+
 def gen_readme_for_week(week):
-    def cap(s):
-        s = s.capitalize()
-        try:
-            return TERMS[TERMS_CAP.index(s)]
-        except:
-            pass
-        return s.capitalize()
-    week_name = ' '.join([cap(s) for s in week.split('_')])
+    week_name = get_weekname(week)
     out = """## {}
 Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
@@ -85,7 +93,7 @@ Index|Title|Solution(s)|Acceptance|Difficulty
         difficulty = difficulty2level(problem.difficulty)
         return difficulty * 100 + acc
     solved.sort(key=key_for_solved)
-    spath = os.path.join('./', week)
+    spath = './'
 
     for pid, solutions in solved:
         problem = problems[pid]
@@ -112,9 +120,20 @@ def gen_readme():
             weeks.append(dirname)
     weeks.sort(key=lambda x : -int(x[4:x.index('_')]))
     out = """# Weekly Challenge for Algorithm
-Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)\n"""
+Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)
+
+[@shicheng0829](https://github.com/shicheng0829) collected problems from week 1 to week 7.
+
+[@wkcn](https://github.com/wkcn) collected problems from week 8.
+
+## Weekly Topics
+"""
     for week in weeks:
-        out += '\n' + gen_readme_for_week(week)
+        out += "[{week_name}]({path})\n".format(week_name=get_weekname(week), path=os.path.join('./', week))
+    for week in weeks:
+        week_readme = gen_readme_for_week(week)
+        with open(os.path.join(week, 'README.md'), 'w') as fout:
+            fout.write(week_readme)
     return out
 
 
