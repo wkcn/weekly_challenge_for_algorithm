@@ -9,5 +9,5 @@ Index|Title|Solution(s)|Acceptance|Difficulty
 74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|[C++](./74.search-a-2d-matrix.cpp)|35.6%|Medium
 34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[C++](./34.find-first-and-last-position-of-element-in-sorted-array.cpp)|34.6%|Medium
 33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[C++](./33.search-in-rotated-sorted-array.cpp)|33.4%|Medium
-50|[Pow(x, n)](https://leetcode.com/problems/powx,-n)|[C++](./50.powx-n.cpp)|28.8%|Medium
+50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[C++](./50.powx-n.cpp)|28.8%|Medium
 4|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)|[C++](./4.median-of-two-sorted-arrays.cpp)|27.9%|Hard

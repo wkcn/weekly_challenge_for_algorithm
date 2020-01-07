@@ -11,7 +11,7 @@ class Problem:
         signs = '()'
         prefix = 'https://leetcode.com/problems/'
         link = ''.join([c for c in self.title.lower() if c not in signs])
-        link = prefix + link.replace(' ', '-')
+        link = prefix + link.replace(' ', '-').replace(',', '')
         return link
 
 def difficulty2level(difficulty):
