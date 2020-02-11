@@ -70,7 +70,8 @@ Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
 """.format(week_name)
     exts = dict([
-        ('.cpp', 'C++')
+        ('.cpp', 'C++'),
+        ('.rs', 'Rust'),
     ])
     solved = dict()
     for fname in os.listdir(week):
@@ -81,7 +82,11 @@ Index|Title|Solution(s)|Acceptance|Difficulty
                 si = name.index('.')
                 pid = int(name[:si])
             except:
-                continue
+                try:
+                    si = name.index('-')
+                    pid = int(name[:si])
+                except:
+                    continue
             assert pid in problems, pid
             if pid not in solved:
                 solved[pid] = set()

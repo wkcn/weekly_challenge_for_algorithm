@@ -23,30 +23,74 @@ void my_nth_element(IT first, IT nth, IT last) {
   }
 }
 
-#define A(i) (nums[(i<<1) % (len & (-2))])
+#define IND_MAP(i) ((1 + (i << 1)) % (len | 1))
+#define A(i) (nums[IND_MAP(i)])
 
 class Solution {
 public:
   void wiggleSort(vector<int>& nums) {
     const int len = nums.size();
     if (len <= 1) return;
+    // 改成 nums.begin() + len / 2也行
     auto mid_it = nums.begin() + (len - 1) / 2; 
     my_nth_element(nums.begin(), mid_it, nums.end());
-    int val = *mid_it;
-    // 使用快排的方法能够使与val相等的数汇聚在中间
+    int mid = *mid_it;
     int i = 0, j = len - 1;
-    while (i < j) {
-      cout << i << ", " << j << endl;
-      while (i < j && A(j) > val) --j;
-      A(i) = A(j);
-      while (i < j && A(i) < val) ++i;
-      A(j) = A(i);
+    int r = 0;
+    // reference: 75. Sort Colors
+    while (r <= j) {
+      if (A(r) > mid) {
+        swap(A(r++), A(i++));
+      } else if (A(r) == mid) {
+        ++r;
+      } else {
+        swap(A(r), A(j--));
+      } 
     }
-    A(i) = val; 
   }
 };
 
 int main() {
+
+/*
+  i  : 0, 1, 2, 3, 4, 5
+ A(i): 0, 2, 4, 1, 3, 5
+
+ len is even
+ (i << 1) % (len-1) if i == len - 1
+ NOTICE: 5
+
+  i  : 0, 1, 2, 3, 4
+ A(i): 0, 2, 4, 1, 3
+
+ (i << 1) % len
+
+ 上面的排序太复杂了，难实现
+ 换种编码
+  i  : 0, 1, 2, 3, 4, 5
+ A(i): 1, 3, 5, 0, 2, 4 
+
+ len is even
+ (1 + i * 2) % (len + 1)
+
+  i  : 0, 1, 2, 3, 4
+ A(i): 1, 3, 0, 2, 4
+
+ len is odd
+ (1 + i * 2) % len
+
+ */
+  int len = 6;
+  cout << "==len: " << len << endl;
+  for (int i = 0; i < len; ++i) {
+    cout << IND_MAP(i) << endl;
+  }
+  len = 5;
+  cout << "==len: " << len << endl;
+  for (int i = 0; i < len; ++i) {
+    cout << IND_MAP(i) << endl;
+  }
+
   vector<int> nums;
   INPUT_ARRAY(nums);
   Solution().wiggleSort(nums);
