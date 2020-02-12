@@ -89,9 +89,9 @@ Index|Title|Solution(s)|Acceptance|Difficulty
                     continue
             assert pid in problems, pid
             if pid not in solved:
-                solved[pid] = set()
-            solved[pid].add((code_type, fname))
-    solved = list(solved.items())
+                solved[pid] = list()
+            solved[pid].append((code_type, fname))
+    solved = list(solved.items()) # a list of (pid, (code_type, fname))
     def key_for_solved(x):
         problem = problems[x[0]]
         acc = 100.0 - float(problem.acceptance[:-1])
@@ -106,6 +106,7 @@ Index|Title|Solution(s)|Acceptance|Difficulty
             problem.title,
             problem.link
         )
+        solutions.sort()
         solution = ', '.join([
             '[{}]({})'.format(code_type, os.path.join(spath, fname))
             for code_type, fname in solutions
