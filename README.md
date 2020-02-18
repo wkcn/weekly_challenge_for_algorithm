@@ -5,6 +5,12 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 [@wkcn](https://github.com/wkcn) collects problems since week 8.
 
+## Progress
+```
+  9%|███▉                                          | 116/1352 [1848:00:00<19690:45:31, 57351.72s/it]
+```
+[[Problem List]](./problems.md)
+
 ## Topics
 
 [Week 11 - Bit Manipulation](./week11_bit_manipulation)

@@ -1,4 +1,10 @@
 import os
+from tqdm import tqdm
+
+EXTS = dict([
+    ('.cpp', 'C++'),
+    ('.rs', 'Rust'),
+])
 
 class Problem:
     def __init__(self, id, title, acceptance, difficulty):
@@ -7,6 +13,8 @@ class Problem:
         self.acceptance = acceptance
         self.difficulty = difficulty
         self.link = self.get_link()
+        self.path = ""
+        self.solutions = []
     def get_link(self):
         signs = '()'
         prefix = 'https://leetcode.com/problems/'
@@ -42,8 +50,65 @@ def read_problems_list(fname):
             problems[pid] = problem
     return problems
 
+def get_problem_id(name):
+    try:
+        si = name.index('.')
+        pid = int(name[:si])
+        return pid
+    except:
+        try:
+            si = name.index('-')
+            pid = int(name[:si])
+            return pid
+        except:
+            pass
+    return None
+
+
 list_fname = './problems.lst'
-problems = read_problems_list(list_fname)
+PROBLEM_LIST = read_problems_list(list_fname)
+
+
+def get_finished_problems():
+    weeks = []
+    for dirname in os.listdir('./'):
+        if dirname.startswith('week'):
+            weeks.append(dirname)
+    weeks.sort(key=lambda x : -int(x[4:x.index('_')]))
+    problems = []
+    for week in weeks:
+        for fname in os.listdir(week):
+            name, ext = os.path.splitext(fname)
+            if ext in EXTS:
+                pid = get_problem_id(fname)
+                if pid is not None:
+                    problems.append(pid)
+    problems.sort()
+    return problems
+
+
+FINISHED_PROBLEMS = get_finished_problems()
+
+
+def write_all_problems():
+    with open('problems.md', 'w') as fout:
+        fout.write("""## Problems
+Done|Title|Solution(s)|Difficulty|Topic
+-|-|-|-|-
+""")
+        for p in PROBLEM_LIST.values():
+            flag = '✔' if p.id in FINISHED_PROBLEMS else '-'
+
+            solutions = ', '.join([
+                f'[{code_type}]({os.path.join(p.path, fname)})'
+                for code_type, fname in p.solutions
+            ])
+            msg = f'{flag}|[{p.id}.{p.title}]({p.link})|{solutions}|{p.difficulty}|'
+            if p.path:
+                msg += f'[{p.path}]({p.path})'
+            # Add Code
+            fout.write(msg + '\n')
+
 
 TERMS = ['DFS', 'BFS']
 TERMS_CAP = [s.capitalize() for s in TERMS]
@@ -69,31 +134,25 @@ def gen_readme_for_week(week):
 Index|Title|Solution(s)|Acceptance|Difficulty
 -|-|-|-|-
 """.format(week_name)
-    exts = dict([
-        ('.cpp', 'C++'),
-        ('.rs', 'Rust'),
-    ])
     solved = dict()
     for fname in os.listdir(week):
         name, ext = os.path.splitext(fname)
-        if ext in exts:
-            code_type = exts[ext]
-            try:
-                si = name.index('.')
-                pid = int(name[:si])
-            except:
-                try:
-                    si = name.index('-')
-                    pid = int(name[:si])
-                except:
-                    continue
-            assert pid in problems, pid
+        if ext in EXTS:
+            code_type = EXTS[ext]
+            pid = get_problem_id(name)
+            if pid is None:
+                continue
+            assert pid in PROBLEM_LIST, pid
             if pid not in solved:
                 solved[pid] = list()
             solved[pid].append((code_type, fname))
+    for pid in solved.keys():
+        solved[pid].sort()
+        PROBLEM_LIST[pid].solutions = solved[pid]
+        PROBLEM_LIST[pid].path = week
     solved = list(solved.items()) # a list of (pid, (code_type, fname))
     def key_for_solved(x):
-        problem = problems[x[0]]
+        problem = PROBLEM_LIST[x[0]]
         acc = 100.0 - float(problem.acceptance[:-1])
         difficulty = difficulty2level(problem.difficulty)
         return difficulty * 100 + acc
@@ -101,14 +160,10 @@ Index|Title|Solution(s)|Acceptance|Difficulty
     spath = './'
 
     for pid, solutions in solved:
-        problem = problems[pid]
-        title = '[{}]({})'.format(
-            problem.title,
-            problem.link
-        )
-        solutions.sort()
+        problem = PROBLEM_LIST[pid]
+        title = f'[{problem.title}]({problem.link})'
         solution = ', '.join([
-            '[{}]({})'.format(code_type, os.path.join(spath, fname))
+            f'[{code_type}]({os.path.join(spath, fname)})'
             for code_type, fname in solutions
         ])
         acceptance = problem.acceptance
@@ -125,6 +180,10 @@ def gen_readme():
         if dirname.startswith('week'):
             weeks.append(dirname)
     weeks.sort(key=lambda x : -int(x[4:x.index('_')]))
+    n = len(FINISHED_PROBLEMS)
+    total = len(PROBLEM_LIST)
+    elapsed = len(weeks) * 7 * 24 * 60 * 60
+    progress = tqdm.format_meter(n, total, elapsed, ncols=100)
     out = """# Weekly Challenge for Algorithm
 Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)
 
@@ -132,8 +191,14 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 [@wkcn](https://github.com/wkcn) collects problems since week 8.
 
+## Progress
+```
+{progress}
+```
+[[Problem List]](./problems.md)
+
 ## Topics
-"""
+""".format(progress=progress)
     for week in weeks:
         out += "\n[{week_name}]({path})\n".format(week_name=get_weekname(week), path=os.path.join('./', week))
     for week in weeks:
@@ -147,4 +212,5 @@ if __name__ == '__main__':
     out = gen_readme()
     with open('README.md', 'w') as fout:
         fout.write(out)
+    write_all_problems()
     print("Over")
