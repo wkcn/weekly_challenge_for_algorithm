@@ -7,6 +7,8 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 ## Topics
 
+[Week 11 - Bit Manipulation](./week11_bit_manipulation)
+
 [Week 10 - Sort](./week10_sort)
 
 [Week 9 - Stack And Queue](./week9_stack_and_queue)

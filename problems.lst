@@ -2551,3 +2551,155 @@ Number of Burgers with No Waste of Ingredients    		49.8%	Medium
 Count Square Submatrices with All Ones    		65.7%	Medium
 1278
 Palindrome Partitioning III    		55.9%	Hard
+1279
+Traffic Light Controlled Intersection    		77.9%	Easy
+1280
+Students and Examinations    		68.2%	Easy
+1281
+Subtract the Product and Sum of Digits of an Integer    		84.5%	Easy
+1282
+Group the People Given the Group Size They Belong To    		83.6%	Medium
+1283
+Find the Smallest Divisor Given a Threshold    		40.8%	Medium
+1284
+Minimum Number of Flips to Convert Binary Matrix to Zero Matrix    		69.6%	Hard
+1285
+Find the Start and End Number of Continuous Ranges    		79.2%	Medium
+1286
+Iterator for Combination    		65.0%	Medium
+1287
+Element Appearing More Than 25% In Sorted Array    		60.1%	Easy
+1288
+Remove Covered Intervals    		61.3%	Medium
+1289
+Minimum Falling Path Sum II    		57.5%	Hard
+1290
+Convert Binary Number in a Linked List to Integer    		80.1%	Easy
+1291
+Sequential Digits    		51.6%	Medium
+1292
+Maximum Side Length of a Square with Sum Less than or Equal to Threshold    		44.6%	Medium
+1293
+Shortest Path in a Grid with Obstacles Elimination    		41.0%	Hard
+1294
+Weather Type in Each Country    		64.0%	Easy
+1295
+Find Numbers with Even Number of Digits    		84.5%	Easy
+1296
+Divide Array in Sets of K Consecutive Numbers    		48.3%	Medium
+1297
+Maximum Number of Occurrences of a Substring    		43.8%	Medium
+1298
+Maximum Candies You Can Get from Boxes    		57.9%	Hard
+1299
+Replace Elements with Greatest Element on Right Side    		76.5%	Easy
+1300
+Sum of Mutated Array Closest to Target    		46.0%	Medium
+1301
+Number of Paths with Max Score    		36.0%	Hard
+1302
+Deepest Leaves Sum    		83.5%	Medium
+1303
+Find the Team Size    		85.9%	Easy
+1304
+Find N Unique Integers Sum up to Zero    		76.7%	Easy
+1305
+All Elements in Two Binary Search Trees    		74.7%	Medium
+1306
+Jump Game III    		61.2%	Medium
+1307
+Verbal Arithmetic Puzzle    		37.3%	Hard
+1308
+Running Total for Different Genders    		82.2%	Medium
+1309
+Decrypt String from Alphabet to Integer Mapping    		76.9%	Easy
+1310
+XOR Queries of a Subarray    		66.2%	Medium
+1311
+Get Watched Videos by Your Friends    		42.1%	Medium
+1312
+Minimum Insertion Steps to Make a String Palindrome    		55.0%	Hard
+1313
+Decompress Run-Length Encoded List    		85.0%	Easy
+1314
+Matrix Block Sum    		72.0%	Medium
+1315
+Sum of Nodes with Even-Valued Grandparent    		83.6%	Medium
+1316
+Distinct Echo Substrings    		45.2%	Hard
+1317
+Convert Integer to the Sum of Two No-Zero Integers    		58.0%	Easy
+1318
+Minimum Flips to Make a OR b Equal to c    		61.1%	Medium
+1319
+Number of Operations to Make Network Connected    		50.6%	Medium
+1320
+Minimum Distance to Type a Word Using Two Fingers    		55.3%	Hard
+1321
+Restaurant Growth    		63.3%	Medium
+1322
+Ads Performance    		58.2%	Easy
+1323
+Maximum 69 Number    		79.3%	Easy
+1324
+Print Words Vertically    		58.6%	Medium
+1325
+Delete Leaves With a Given Value    		73.1%	Medium
+1326
+Minimum Number of Taps to Open to Water a Garden    		40.7%	Hard
+1327
+List the Products Ordered in a Period    		71.6%	Easy
+1328
+Break a Palindrome    		40.5%	Medium
+1329
+Sort the Matrix Diagonally    		77.5%	Medium
+1330
+Reverse Subarray To Maximize Array Value    		29.8%	Hard
+1331
+Rank Transform of an Array    		59.8%	Easy
+1332
+Remove Palindromic Subsequences    		55.7%	Easy
+1333
+Filter Restaurants by Vegan-Friendly, Price and Distance    		52.5%	Medium
+1334
+Find the City With the Smallest Number of Neighbors at a Threshold Distance    		41.1%	Medium
+1335
+Minimum Difficulty of a Job Schedule    		54.8%	Hard
+1336
+Number of Transactions per Visit    		46.4%	Hard
+1337
+The K Weakest Rows in a Matrix    		69.0%	Easy
+1338
+Reduce Array Size to The Half    		67.0%	Medium
+1339
+Maximum Product of Splitted Binary Tree    		35.2%	Medium
+1340
+Jump Game V    		55.0%	Hard
+1341
+Movie Rating    		53.9%	Medium
+1342
+Number of Steps to Reduce a Number to Zero    		88.3%	Easy
+1343
+Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold    		64.4%	Medium
+1344
+Angle Between Hands of a Clock    		61.7%	Medium
+1345
+Jump Game IV    		33.6%	Hard
+1346
+Check If N and Its Double Exist    		41.6%	Easy
+1347
+Minimum Number of Steps to Make Two Strings Anagram    		76.5%	Medium
+1348
+Tweet Counts Per Frequency    		25.0%	Medium
+1349
+Maximum Students Taking Exam    		35.8%	Hard
+1350
+Students With Invalid Departments    91.7%	Easy
+1351	
+Count Negative Numbers in a Sorted Matrix    		83.4%	Easy	
+1352	
+Product of the Last K Numbers    		35.0%	Medium	
+1353	
+Maximum Number of Events That Can Be Attended    		28.1%	Medium	
+1354	
+Construct Target Array With Multiple Sums    		41.0%	Hard
