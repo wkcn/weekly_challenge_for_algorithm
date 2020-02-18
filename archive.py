@@ -75,15 +75,15 @@ def get_finished_problems():
         if dirname.startswith('week'):
             weeks.append(dirname)
     weeks.sort(key=lambda x : -int(x[4:x.index('_')]))
-    problems = []
+    problems = set()
     for week in weeks:
         for fname in os.listdir(week):
             name, ext = os.path.splitext(fname)
             if ext in EXTS:
                 pid = get_problem_id(fname)
                 if pid is not None:
-                    problems.append(pid)
-    problems.sort()
+                    problems.add(pid)
+    problems = list(problems)
     return problems
 
 

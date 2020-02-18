@@ -7,7 +7,7 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 ## Progress
 ```
-  9%|███▉                                          | 116/1352 [1848:00:00<19690:45:31, 57351.72s/it]
+  8%|███▋                                          | 110/1352 [1848:00:00<20865:36:00, 60480.00s/it]
 ```
 [[Problem List]](./problems.md)
 
