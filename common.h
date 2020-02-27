@@ -1,3 +1,4 @@
+#include <cassert>
 #include <iostream>
 #include <chrono>
 #include <functional>
@@ -52,6 +53,19 @@ void PRINT_ARRAY(const vector<T> &vs) {
     cout << data;
   }
   cout << endl;
+}
+
+vector<int> RANGE(int start, int end) {
+  assert(end >= start);
+  vector<int> res(end - start);
+  for (int i = 0, v = start; v < end; ++i, ++v) {
+    res[i] = v;
+  }
+  return res;
+}
+
+vector<int> RANGE(int len) {
+  return RANGE(0, len);
 }
 
 template <typename TreeNode>
@@ -161,6 +175,17 @@ void PRINT_LIST(ListNode* head) {
   cout << endl;
 }
 
+template <typename ListNode, typename T>
+ListNode* Vector2List(const vector<T> &vec) {
+  ListNode *head = nullptr;
+  ListNode **fill = &head;
+  for (const T &val : vec) {
+    ListNode *p = new ListNode(val);
+    *fill = p;
+    fill = &((*fill)->next);
+  }
+  return head;
+}
 
 template <typename T>
 void PRINT_MATRIX(const vector<vector<T> > &mat) {
@@ -177,6 +202,19 @@ void PRINT_MATRIX(const vector<vector<T> > &mat) {
   }
 }
 
+const char HEXCH[16] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
+template<typename T>
+string HEX2STR(const T& c) {
+  string res;
+  int len = sizeof(T);
+  const uint8_t* p = reinterpret_cast<const uint8_t*>(&c);
+  for (int i = len - 1; i >= 0; --i) {
+    uint8_t num = *(p + i);
+    res += HEXCH[(num>>4)&0xF];
+    res += HEXCH[num&0xF];
+  }
+  return res;
+}
 
 class Timer {
 using time_point = std::chrono::steady_clock::time_point;

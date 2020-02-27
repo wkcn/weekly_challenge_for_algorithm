@@ -7,11 +7,13 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 ## Progress
 ```
-  8%|███▋                                          | 110/1352 [1848:00:00<20865:36:00, 60480.00s/it]
+  9%|████                                          | 120/1352 [2016:00:00<20697:36:00, 60480.00s/it]
 ```
 [[Problem List]](./problems.md)
 
 ## Topics
+
+[Week 12 - Array2](./week12_array2)
 
 [Week 11 - Bit Manipulation](./week11_bit_manipulation)
 

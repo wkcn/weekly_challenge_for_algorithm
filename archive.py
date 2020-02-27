@@ -148,6 +148,7 @@ Index|Title|Solution(s)|Acceptance|Difficulty
             solved[pid].append((code_type, fname))
     for pid in solved.keys():
         solved[pid].sort()
+        # assert len(PROBLEM_LIST[pid].solutions) == 0, (week, pid)
         PROBLEM_LIST[pid].solutions = solved[pid]
         PROBLEM_LIST[pid].path = week
     solved = list(solved.items()) # a list of (pid, (code_type, fname))
