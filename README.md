@@ -7,11 +7,13 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 ## Progress
 ```
-  9%|████                                          | 120/1352 [2016:00:00<20697:36:00, 60480.00s/it]
+ 10%|████▍                                         | 129/1352 [2184:00:00<20705:40:27, 60948.84s/it]
 ```
 [[Problem List]](./problems.md)
 
 ## Topics
+
+[Week 13 - List2](./week13_list2)
 
 [Week 12 - Array2](./week12_array2)
 

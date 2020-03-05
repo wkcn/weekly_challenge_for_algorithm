@@ -19,12 +19,12 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[16.3Sum Closest](https://leetcode.com/problems/3sum-closest)|[Rust](week12_array2/16-3sum-closest.rs)|Medium|[week12_array2](week12_array2)
 ✔|[17.Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number)|[C++](week4_backtrack/17.letter-combinations-of-a-phone-number.cpp)|Medium|[week4_backtrack](week4_backtrack)
 ✔|[18.4Sum](https://leetcode.com/problems/4sum)|[Rust](week12_array2/18-4sum.rs)|Medium|[week12_array2](week12_array2)
--|[19.Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)||Medium|
+✔|[19.Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[C++](week13_list2/19.remove-nth-node-from-end-of-list.cpp)|Medium|[week13_list2](week13_list2)
 ✔|[20.Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[C++](week9_stack_and_queue/20.valid-parentheses.cpp)|Easy|[week9_stack_and_queue](week9_stack_and_queue)
 ✔|[21.Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[C++](week2_list/21.merge_two_lists.cpp)|Easy|[week2_list](week2_list)
 ✔|[22.Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[C++](week4_backtrack/22.generate-parentheses.cpp)|Medium|[week4_backtrack](week4_backtrack)
--|[23.Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)||Hard|
--|[24.Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)||Medium|
+✔|[23.Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[C++](week13_list2/23.merge-k-sorted-lists.cpp)|Hard|[week13_list2](week13_list2)
+✔|[24.Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|[C++](week13_list2/24.swap-nodes-in-pairs.cpp)|Medium|[week13_list2](week13_list2)
 ✔|[25.Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)|[C++](week2_list/25.reverse_k_group.cpp)|Hard|[week2_list](week2_list)
 ✔|[26.Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Rust](week12_array2/26-remove-duplicates-from-sorted-array.rs)|Easy|[week12_array2](week12_array2)
 ✔|[27.Remove Element](https://leetcode.com/problems/remove-element)|[Rust](week12_array2/27-remove-element.rs)|Easy|[week12_array2](week12_array2)
@@ -61,7 +61,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)||Easy|
 ✔|[59.Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Rust](week12_array2/59-spiral-matrix-ii.rs)|Medium|[week12_array2](week12_array2)
 -|[60.Permutation Sequence](https://leetcode.com/problems/permutation-sequence)||Medium|
--|[61.Rotate List](https://leetcode.com/problems/rotate-list)||Medium|
+✔|[61.Rotate List](https://leetcode.com/problems/rotate-list)|[C++](week13_list2/61.rotate-list.cpp)|Medium|[week13_list2](week13_list2)
 -|[62.Unique Paths](https://leetcode.com/problems/unique-paths)||Medium|
 -|[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii)||Medium|
 ✔|[64.Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[C++](week6_dynamic_programming/64.minimum-path-sum.cpp)|Medium|[week6_dynamic_programming](week6_dynamic_programming)
@@ -82,7 +82,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[79.Word Search](https://leetcode.com/problems/word-search)||Medium|
 ✔|[80.Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|[Rust](week12_array2/80-remove-duplicates-from-sorted-array-ii.rs)|Medium|[week12_array2](week12_array2)
 -|[81.Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)||Medium|
--|[82.Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)||Medium|
+✔|[82.Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|[C++](week13_list2/82.remove-duplicates-from-sorted-list-ii.cpp)|Medium|[week13_list2](week13_list2)
 -|[83.Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list)||Easy|
 ✔|[84.Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)|[C++](week9_stack_and_queue/84.largest-rectangle-in-histogram.cpp)|Hard|[week9_stack_and_queue](week9_stack_and_queue)
 -|[85.Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle)||Hard|
@@ -141,7 +141,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[138.Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[C++](week2_list/138.copy_random_list.cpp)|Medium|[week2_list](week2_list)
 ✔|[139.Word Break](https://leetcode.com/problems/word-break)|[C++](week6_dynamic_programming/139.word-break.cpp)|Medium|[week6_dynamic_programming](week6_dynamic_programming)
 -|[140.Word Break II](https://leetcode.com/problems/word-break-ii)||Hard|
--|[141.Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)||Easy|
+✔|[141.Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)|[C++](week13_list2/141.linked-list-cycle.cpp)|Easy|[week13_list2](week13_list2)
 ✔|[142.Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)|[C++](week2_list/142.detect_cycle_list.cpp)|Medium|[week2_list](week2_list)
 -|[143.Reorder List](https://leetcode.com/problems/reorder-list)||Medium|
 ✔|[144.Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal)|[C++](week3_tree/144.binary_tree_preorder_traversal.cpp)|Medium|[week3_tree](week3_tree)
@@ -234,10 +234,10 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[231.Power of Two](https://leetcode.com/problems/power-of-two)|[Rust](week11_bit_manipulation/231-power-of-two.rs)|Easy|[week11_bit_manipulation](week11_bit_manipulation)
 ✔|[232.Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)|[C++](week9_stack_and_queue/232.implement-queue-using-stacks.cpp)|Easy|[week9_stack_and_queue](week9_stack_and_queue)
 -|[233.Number of Digit One](https://leetcode.com/problems/number-of-digit-one)||Hard|
--|[234.Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)||Easy|
+✔|[234.Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[C++](week13_list2/234.palindrome-linked-list.cpp)|Easy|[week13_list2](week13_list2)
 -|[235.Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)||Easy|
 ✔|[236.Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|[C++](week3_tree/236.lowest_common_ancestor_of_a_binary_tree.cpp)|Medium|[week3_tree](week3_tree)
--|[237.Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)||Easy|
+✔|[237.Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|[C++](week13_list2/237.delete-node-in-a-linked-list.cpp)|Easy|[week13_list2](week13_list2)
 -|[238.Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)||Medium|
 -|[239.Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum)||Hard|
 -|[240.Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii)||Medium|
@@ -876,7 +876,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[873.Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)||Medium|
 -|[874.Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation)||Easy|
 -|[875.Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas)||Medium|
--|[876.Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)||Easy|
+✔|[876.Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|[C++](week13_list2/876.middle-of-the-linked-list.cpp)|Easy|[week13_list2](week13_list2)
 -|[877.Stone Game](https://leetcode.com/problems/stone-game)||Medium|
 -|[878.Nth Magical Number](https://leetcode.com/problems/nth-magical-number)||Hard|
 -|[879.Profitable Schemes](https://leetcode.com/problems/profitable-schemes)||Hard|
