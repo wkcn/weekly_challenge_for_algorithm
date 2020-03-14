@@ -96,28 +96,28 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[93.Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)|[C++](week4_backtrack/93.restore-ip-addresses.cpp)|Medium|[week4_backtrack](week4_backtrack)
 ✔|[94.Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)|[C++](week3_tree/94.binary_tree_inorder_traversal.cpp)|Medium|[week3_tree](week3_tree)
 ✔|[95.Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii)|[C++](week3_tree/95.unique_binary_search_tree.cpp)|Medium|[week3_tree](week3_tree)
--|[96.Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)||Medium|
+✔|[96.Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees)|[C++](week14_tree2/96.unique-binary-search-trees.cpp)|Medium|[week14_tree2](week14_tree2)
 -|[97.Interleaving String](https://leetcode.com/problems/interleaving-string)||Hard|
--|[98.Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)||Medium|
--|[99.Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree)||Hard|
+✔|[98.Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree)|[C++](week14_tree2/98.validate-binary-search-tree.cpp)|Medium|[week14_tree2](week14_tree2)
+✔|[99.Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree)|[C++](week14_tree2/99.recover-binary-search-tree.cpp)|Hard|[week14_tree2](week14_tree2)
 -|[100.Same Tree](https://leetcode.com/problems/same-tree)||Easy|
 ✔|[101.Symmetric Tree](https://leetcode.com/problems/symmetric-tree)|[C++](week5_dfs_and_bfs/101.symmetric-tree.cpp)|Easy|[week5_dfs_and_bfs](week5_dfs_and_bfs)
--|[102.Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)||Medium|
+✔|[102.Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal)|[C++](week14_tree2/102.binary-tree-level-order-traversal.cpp)|Medium|[week14_tree2](week14_tree2)
 ✔|[103.Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal)|[C++](week9_stack_and_queue/103.binary-tree-zigzag-level-order-traversal.cpp)|Medium|[week9_stack_and_queue](week9_stack_and_queue)
 ✔|[104.Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree)|[C++](week5_dfs_and_bfs/104.maximum-depth-of-binary-tree.cpp)|Easy|[week5_dfs_and_bfs](week5_dfs_and_bfs)
 ✔|[105.Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[C++](week5_dfs_and_bfs/105.construct-binary-tree-from-preorder-and-inorder-traversal.cpp)|Medium|[week5_dfs_and_bfs](week5_dfs_and_bfs)
--|[106.Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)||Medium|
+✔|[106.Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[C++](week14_tree2/106.construct-binary-tree-from-inorder-and-postorder-traversal.cpp)|Medium|[week14_tree2](week14_tree2)
 ✔|[107.Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii)|[C++](week3_tree/107.binary_tree_level_order_travel2.cpp)|Easy|[week3_tree](week3_tree)
 ✔|[108.Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree)|[C++](week5_dfs_and_bfs/108.convert-sorted-array-to-binary-search-tree.cpp)|Easy|[week5_dfs_and_bfs](week5_dfs_and_bfs)
 ✔|[109.Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree)|[C++](week5_dfs_and_bfs/109.convert-sorted-list-to-binary-search-tree.cpp)|Medium|[week5_dfs_and_bfs](week5_dfs_and_bfs)
--|[110.Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)||Easy|
--|[111.Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)||Easy|
+✔|[110.Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree)|[C++](week14_tree2/110.balanced-binary-tree.cpp)|Easy|[week14_tree2](week14_tree2)
+✔|[111.Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree)|[C++](week14_tree2/111.minimum-depth-of-binary-tree.cpp)|Easy|[week14_tree2](week14_tree2)
 ✔|[112.Path Sum](https://leetcode.com/problems/path-sum)|[C++](week3_tree/112.path_sum.cpp)|Easy|[week3_tree](week3_tree)
 -|[113.Path Sum II](https://leetcode.com/problems/path-sum-ii)||Medium|
 ✔|[114.Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list)|[C++](week5_dfs_and_bfs/114.flatten-binary-tree-to-linked-list.cpp)|Medium|[week5_dfs_and_bfs](week5_dfs_and_bfs)
 -|[115.Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences)||Hard|
 ✔|[116.Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node)|[C++](week5_dfs_and_bfs/116.populating-next-right-pointers-in-each-node.cpp)|Medium|[week5_dfs_and_bfs](week5_dfs_and_bfs)
--|[117.Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)||Medium|
+✔|[117.Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii)|[C++](week14_tree2/117.populating-next-right-pointers-in-each-node-ii.cpp)|Medium|[week14_tree2](week14_tree2)
 -|[118.Pascal's Triangle](https://leetcode.com/problems/pascal's-triangle)||Easy|
 -|[119.Pascal's Triangle II](https://leetcode.com/problems/pascal's-triangle-ii)||Easy|
 -|[120.Triangle](https://leetcode.com/problems/triangle)||Medium|
@@ -230,12 +230,12 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[227.Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)||Medium|
 -|[228.Summary Ranges](https://leetcode.com/problems/summary-ranges)||Medium|
 -|[229.Majority Element II](https://leetcode.com/problems/majority-element-ii)||Medium|
--|[230.Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)||Medium|
+✔|[230.Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[C++](week14_tree2/230.kth-smallest-element-in-a-bst.cpp)|Medium|[week14_tree2](week14_tree2)
 ✔|[231.Power of Two](https://leetcode.com/problems/power-of-two)|[Rust](week11_bit_manipulation/231-power-of-two.rs)|Easy|[week11_bit_manipulation](week11_bit_manipulation)
 ✔|[232.Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks)|[C++](week9_stack_and_queue/232.implement-queue-using-stacks.cpp)|Easy|[week9_stack_and_queue](week9_stack_and_queue)
 -|[233.Number of Digit One](https://leetcode.com/problems/number-of-digit-one)||Hard|
 ✔|[234.Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[C++](week13_list2/234.palindrome-linked-list.cpp)|Easy|[week13_list2](week13_list2)
--|[235.Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)||Easy|
+✔|[235.Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[C++](week14_tree2/235.lowest-common-ancestor-of-a-binary-search-tree.cpp)|Easy|[week14_tree2](week14_tree2)
 ✔|[236.Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)|[C++](week3_tree/236.lowest_common_ancestor_of_a_binary_tree.cpp)|Medium|[week3_tree](week3_tree)
 ✔|[237.Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|[C++](week13_list2/237.delete-node-in-a-linked-list.cpp)|Easy|[week13_list2](week13_list2)
 -|[238.Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self)||Medium|
