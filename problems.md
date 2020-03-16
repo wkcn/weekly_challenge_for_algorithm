@@ -10,7 +10,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[7.Reverse Integer](https://leetcode.com/problems/reverse-integer)||Easy|
 -|[8.String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi)||Medium|
 -|[9.Palindrome Number](https://leetcode.com/problems/palindrome-number)||Easy|
--|[10.Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)||Hard|
+✔|[10.Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching)|[C++](week15_backtrack/10.regular-expression-matching.cpp)|Hard|[week15_backtrack](week15_backtrack)
 ✔|[11.Container With Most Water](https://leetcode.com/problems/container-with-most-water)|[C++](week1_array/11.max_area.cpp)|Medium|[week1_array](week1_array)
 -|[12.Integer to Roman](https://leetcode.com/problems/integer-to-roman)||Medium|
 -|[13.Roman to Integer](https://leetcode.com/problems/roman-to-integer)||Easy|
@@ -39,15 +39,15 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[36.Valid Sudoku](https://leetcode.com/problems/valid-sudoku)||Medium|
 -|[37.Sudoku Solver](https://leetcode.com/problems/sudoku-solver)||Hard|
 -|[38.Count and Say](https://leetcode.com/problems/count-and-say)||Easy|
--|[39.Combination Sum](https://leetcode.com/problems/combination-sum)||Medium|
--|[40.Combination Sum II](https://leetcode.com/problems/combination-sum-ii)||Medium|
+✔|[39.Combination Sum](https://leetcode.com/problems/combination-sum)|[C++](week15_backtrack/39.combination-sum.cpp)|Medium|[week15_backtrack](week15_backtrack)
+✔|[40.Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[C++](week15_backtrack/40.combination-sum-ii.cpp)|Medium|[week15_backtrack](week15_backtrack)
 ✔|[41.First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[Rust](week12_array2/41-first-missing-positive.rs)|Hard|[week12_array2](week12_array2)
 ✔|[42.Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[C++](week1_array/42.trap_rain.cpp)|Hard|[week1_array](week1_array)
 -|[43.Multiply Strings](https://leetcode.com/problems/multiply-strings)||Medium|
 -|[44.Wildcard Matching](https://leetcode.com/problems/wildcard-matching)||Hard|
 ✔|[45.Jump Game II](https://leetcode.com/problems/jump-game-ii)|[C++](week7_greedy/45.jump-game-ii.cpp)|Hard|[week7_greedy](week7_greedy)
 ✔|[46.Permutations](https://leetcode.com/problems/permutations)|[C++](week4_backtrack/46.permutations.cpp)|Medium|[week4_backtrack](week4_backtrack)
--|[47.Permutations II](https://leetcode.com/problems/permutations-ii)||Medium|
+✔|[47.Permutations II](https://leetcode.com/problems/permutations-ii)|[C++](week15_backtrack/47.permutations-ii.cpp)|Medium|[week15_backtrack](week15_backtrack)
 ✔|[48.Rotate Image](https://leetcode.com/problems/rotate-image)|[Rust](week12_array2/48-rotate-image.rs)|Medium|[week12_array2](week12_array2)
 -|[49.Group Anagrams](https://leetcode.com/problems/group-anagrams)||Medium|
 ✔|[50.Pow(x, n)](https://leetcode.com/problems/powx-n)|[C++](week8_binary_search/50.powx-n.cpp)|Medium|[week8_binary_search](week8_binary_search)
@@ -60,7 +60,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[57.Insert Interval](https://leetcode.com/problems/insert-interval)|[Rust](week12_array2/57-insert-interval.rs)|Hard|[week12_array2](week12_array2)
 -|[58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)||Easy|
 ✔|[59.Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Rust](week12_array2/59-spiral-matrix-ii.rs)|Medium|[week12_array2](week12_array2)
--|[60.Permutation Sequence](https://leetcode.com/problems/permutation-sequence)||Medium|
+✔|[60.Permutation Sequence](https://leetcode.com/problems/permutation-sequence)|[C++](week15_backtrack/60.permutation-sequence.cpp)|Medium|[week15_backtrack](week15_backtrack)
 ✔|[61.Rotate List](https://leetcode.com/problems/rotate-list)|[C++](week13_list2/61.rotate-list.cpp)|Medium|[week13_list2](week13_list2)
 -|[62.Unique Paths](https://leetcode.com/problems/unique-paths)||Medium|
 -|[63.Unique Paths II](https://leetcode.com/problems/unique-paths-ii)||Medium|
@@ -77,9 +77,9 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[74.Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|[C++](week8_binary_search/74.search-a-2d-matrix.cpp)|Medium|[week8_binary_search](week8_binary_search)
 ✔|[75.Sort Colors](https://leetcode.com/problems/sort-colors)|[Rust](week10_sort/75-sort-colors.rs)|Medium|[week10_sort](week10_sort)
 -|[76.Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring)||Hard|
--|[77.Combinations](https://leetcode.com/problems/combinations)||Medium|
+✔|[77.Combinations](https://leetcode.com/problems/combinations)|[C++](week15_backtrack/77.combinations.cpp)|Medium|[week15_backtrack](week15_backtrack)
 ✔|[78.Subsets](https://leetcode.com/problems/subsets)|[C++](week4_backtrack/78.subsets.cpp)|Medium|[week4_backtrack](week4_backtrack)
--|[79.Word Search](https://leetcode.com/problems/word-search)||Medium|
+✔|[79.Word Search](https://leetcode.com/problems/word-search)|[C++](week15_backtrack/79.word-search.cpp)|Medium|[week15_backtrack](week15_backtrack)
 ✔|[80.Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)|[Rust](week12_array2/80-remove-duplicates-from-sorted-array-ii.rs)|Medium|[week12_array2](week12_array2)
 -|[81.Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii)||Medium|
 ✔|[82.Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii)|[C++](week13_list2/82.remove-duplicates-from-sorted-list-ii.cpp)|Medium|[week13_list2](week13_list2)
@@ -89,8 +89,8 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[86.Partition List](https://leetcode.com/problems/partition-list)|[C++](week2_list/86.partition_list.cpp)|Medium|[week2_list](week2_list)
 -|[87.Scramble String](https://leetcode.com/problems/scramble-string)||Hard|
 ✔|[88.Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)|[Rust](week12_array2/88-merge-sorted-array.rs)|Easy|[week12_array2](week12_array2)
--|[89.Gray Code](https://leetcode.com/problems/gray-code)||Medium|
--|[90.Subsets II](https://leetcode.com/problems/subsets-ii)||Medium|
+✔|[89.Gray Code](https://leetcode.com/problems/gray-code)|[C++](week15_backtrack/89.gray-code.cpp)|Medium|[week15_backtrack](week15_backtrack)
+✔|[90.Subsets II](https://leetcode.com/problems/subsets-ii)|[C++](week15_backtrack/90.subsets-ii.cpp)|Medium|[week15_backtrack](week15_backtrack)
 -|[91.Decode Ways](https://leetcode.com/problems/decode-ways)||Medium|
 -|[92.Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)||Medium|
 ✔|[93.Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses)|[C++](week4_backtrack/93.restore-ip-addresses.cpp)|Medium|[week4_backtrack](week4_backtrack)
@@ -784,7 +784,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[781.Rabbits in Forest](https://leetcode.com/problems/rabbits-in-forest)||Medium|
 -|[782.Transform to Chessboard](https://leetcode.com/problems/transform-to-chessboard)||Hard|
 -|[783.Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes)||Easy|
--|[784.Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation)||Easy|
+✔|[784.Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation)|[C++](week15_backtrack/784.letter-case-permutation.cpp)|Easy|[week15_backtrack](week15_backtrack)
 -|[785.Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite?)||Medium|
 -|[786.K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction)||Hard|
 -|[787.Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops)||Medium|
