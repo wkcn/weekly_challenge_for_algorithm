@@ -13,7 +13,7 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 ## Topics
 
-[Week 15 - Backtrack](./week15_backtrack)
+[Week 15 - Backtrack2](./week15_backtrack2)
 
 [Week 14 - Tree2](./week14_tree2)
 
