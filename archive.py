@@ -111,15 +111,14 @@ Done|Title|Solution(s)|Difficulty|Topic
 
 
 TERMS = ['DFS', 'BFS']
-TERMS_CAP = [s.capitalize() for s in TERMS]
+TERMS_CAP = dict((s.capitalize(), s) for s in TERMS)
 
 def cap(s):
     s = s.capitalize()
-    try:
-        return TERMS[TERMS_CAP.index(s)]
-    except:
-        pass
-    return s.capitalize()
+    for cap in TERMS_CAP:
+        if s.startswith(cap):
+            return TERMS_CAP[cap] + s[len(cap):]
+    return s
 
 def get_weekname(week):
     sp = week.split('_')
