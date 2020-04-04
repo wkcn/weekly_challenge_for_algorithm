@@ -151,7 +151,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[148.Sort List](https://leetcode.com/problems/sort-list)|[C++](week2_list/148.sort_list.cpp)|Medium|[week2_list](week2_list)
 -|[149.Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line)||Hard|
 ✔|[150.Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation)|[C++](week9_stack_and_queue/150.evaluate-reverse-polish-notation.cpp)|Medium|[week9_stack_and_queue](week9_stack_and_queue)
--|[151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)||Medium|
+✔|[151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)|[C++](week17_string/151.reverse-words-in-a-string.cpp)|Medium|[week17_string](week17_string)
 -|[152.Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)||Medium|
 -|[153.Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)||Medium|
 -|[154.Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)||Hard|
@@ -227,7 +227,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[224.Basic Calculator](https://leetcode.com/problems/basic-calculator)||Hard|
 ✔|[225.Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)|[C++](week9_stack_and_queue/225.implement-stack-using-queues.cpp)|Easy|[week9_stack_and_queue](week9_stack_and_queue)
 ✔|[226.Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[C++](week3_tree/226.invert_binary_tree.cpp)|Easy|[week3_tree](week3_tree)
--|[227.Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)||Medium|
+✔|[227.Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)|[C++](week17_string/227.basic-calculator-ii.cpp)|Medium|[week17_string](week17_string)
 -|[228.Summary Ranges](https://leetcode.com/problems/summary-ranges)||Medium|
 -|[229.Majority Element II](https://leetcode.com/problems/majority-element-ii)||Medium|
 ✔|[230.Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst)|[C++](week14_tree2/230.kth-smallest-element-in-a-bst.cpp)|Medium|[week14_tree2](week14_tree2)
@@ -344,8 +344,8 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[341.Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)||Medium|
 -|[342.Power of Four](https://leetcode.com/problems/power-of-four)||Easy|
 -|[343.Integer Break](https://leetcode.com/problems/integer-break)||Medium|
--|[344.Reverse String](https://leetcode.com/problems/reverse-string)||Easy|
--|[345.Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)||Easy|
+✔|[344.Reverse String](https://leetcode.com/problems/reverse-string)|[C++](week17_string/344.reverse-string.cpp)|Easy|[week17_string](week17_string)
+✔|[345.Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)|[C++](week17_string/345.reverse-vowels-of-a-string.cpp)|Easy|[week17_string](week17_string)
 -|[346.Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream)||Easy|
 -|[347.Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements)||Medium|
 -|[348.Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe)||Medium|
@@ -433,7 +433,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[430.Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list)||Medium|
 -|[431.Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree)||Hard|
 -|[432.All O`one Data Structure](https://leetcode.com/problems/all-o`one-data-structure)||Hard|
--|[433.Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation)||Medium|
+✔|[433.Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation)|[C++](week17_string/433.minimum-genetic-mutation.cpp)|Medium|[week17_string](week17_string)
 -|[434.Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string)||Easy|
 -|[435.Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals)||Medium|
 -|[436.Find Right Interval](https://leetcode.com/problems/find-right-interval)||Medium|
@@ -520,7 +520,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[517.Super Washing Machines](https://leetcode.com/problems/super-washing-machines)||Hard|
 -|[518.Coin Change 2](https://leetcode.com/problems/coin-change-2)||Medium|
 -|[519.Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix)||Medium|
--|[520.Detect Capital](https://leetcode.com/problems/detect-capital)||Easy|
+✔|[520.Detect Capital](https://leetcode.com/problems/detect-capital)|[C++](week17_string/520.detect-capital.cpp)|Easy|[week17_string](week17_string)
 -|[521.Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i)||Easy|
 -|[522.Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii)||Medium|
 -|[523.Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)||Medium|
@@ -541,7 +541,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[538.Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree)||Easy|
 -|[539.Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference)||Medium|
 -|[540.Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)||Medium|
--|[541.Reverse String II](https://leetcode.com/problems/reverse-string-ii)||Easy|
+✔|[541.Reverse String II](https://leetcode.com/problems/reverse-string-ii)|[C++](week17_string/541.reverse-string-ii.cpp)|Easy|[week17_string](week17_string)
 ✔|[542.01 Matrix](https://leetcode.com/problems/01-matrix)|[C++](week16_dfs_and_bfs2/542.01-matrix.cpp)|Medium|[week16_dfs_and_bfs2](week16_dfs_and_bfs2)
 -|[543.Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree)||Easy|
 -|[544.Output Contest Matches](https://leetcode.com/problems/output-contest-matches)||Medium|
@@ -557,7 +557,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[554.Brick Wall](https://leetcode.com/problems/brick-wall)||Medium|
 -|[555.Split Concatenated Strings](https://leetcode.com/problems/split-concatenated-strings)||Medium|
 -|[556.Next Greater Element III](https://leetcode.com/problems/next-greater-element-iii)||Medium|
--|[557.Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii)||Easy|
+✔|[557.Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii)|[C++](week17_string/557.reverse-words-in-a-string-iii.cpp)|Easy|[week17_string](week17_string)
 -|[558.Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection)||Easy|
 ✔|[559.Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)|[C++](week16_dfs_and_bfs2/559.maximum-depth-of-n-ary-tree.cpp)|Easy|[week16_dfs_and_bfs2](week16_dfs_and_bfs2)
 -|[560.Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)||Medium|
@@ -583,7 +583,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[580.Count Student Number in Departments](https://leetcode.com/problems/count-student-number-in-departments)||Medium|
 -|[581.Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray)||Easy|
 -|[582.Kill Process](https://leetcode.com/problems/kill-process)||Medium|
--|[583.Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)||Medium|
+✔|[583.Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings)|[C++](week17_string/583.delete-operation-for-two-strings.cpp)|Medium|[week17_string](week17_string)
 -|[584.Find Customer Referee](https://leetcode.com/problems/find-customer-referee)||Easy|
 -|[585.Investments in 2016](https://leetcode.com/problems/investments-in-2016)||Medium|
 -|[586.Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders)||Easy|
@@ -791,7 +791,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[788.Rotated Digits](https://leetcode.com/problems/rotated-digits)||Easy|
 -|[789.Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts)||Medium|
 -|[790.Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling)||Medium|
--|[791.Custom Sort String](https://leetcode.com/problems/custom-sort-string)||Medium|
+✔|[791.Custom Sort String](https://leetcode.com/problems/custom-sort-string)|[C++](week17_string/791.custom-sort-string.cpp)|Medium|[week17_string](week17_string)
 -|[792.Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences)||Medium|
 -|[793.Preimage Size of Factorial Zeroes Function](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function)||Hard|
 -|[794.Valid Tic-Tac-Toe State](https://leetcode.com/problems/valid-tic-tac-toe-state)||Medium|

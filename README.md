@@ -7,11 +7,13 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 ## Progress
 ```
- 12%|█████▍                                        | 159/1352 [2688:00:00<20168:27:10, 60860.38s/it]
+ 12%|█████▊                                        | 169/1352 [2856:00:00<19992:00:00, 60837.87s/it]
 ```
 [[Problem List]](./problems.md)
 
 ## Topics
+
+[Week 17 - String](./week17_string)
 
 [Week 16 - DFS And BFS2](./week16_dfs_and_bfs2)
 
