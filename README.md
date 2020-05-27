@@ -7,11 +7,13 @@ Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these pro
 
 ## Progress
 ```
- 12%|█████▊                                        | 169/1352 [2856:00:00<19992:00:00, 60837.87s/it]
+ 13%|██████                                        | 177/1352 [3024:00:00<20074:34:34, 61505.08s/it]
 ```
 [[Problem List]](./problems.md)
 
 ## Topics
+
+[Week 18 - Dynamic Programming2](./week18_dynamic_programming2)
 
 [Week 17 - String](./week17_string)
 
