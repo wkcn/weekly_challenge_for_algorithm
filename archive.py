@@ -185,11 +185,13 @@ def gen_readme():
     elapsed = len(weeks) * 7 * 24 * 60 * 60
     progress = tqdm.format_meter(n, total, elapsed, ncols=100)
     out = """# Weekly Challenge for Algorithm
-Thanks [@shicheng0829](https://github.com/shicheng0829) for collecting these problems! It is really helpful :)
+Thanks [@shicheng0829](https://github.com/shicheng0829), [@wkcn](https://github.com/wkcn), [@somainer](https://github.com/somainer) for collecting these problems! It is really helpful :)
 
 [@shicheng0829](https://github.com/shicheng0829) collected problems during week 1 and week 7.
 
-[@wkcn](https://github.com/wkcn) collects problems since week 8.
+[@wkcn](https://github.com/wkcn) collected problems during week 8 and week 18.
+
+[@somainer](https://github.com/somainer) collects problems since week 19.
 
 ## Progress
 ```

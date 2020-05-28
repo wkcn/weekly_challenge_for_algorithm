@@ -71,7 +71,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[68.Text Justification](https://leetcode.com/problems/text-justification)||Hard|
 ✔|[69.Sqrt(x)](https://leetcode.com/problems/sqrtx)|[C++](week8_binary_search/69.sqrtx.cpp)|Easy|[week8_binary_search](week8_binary_search)
 ✔|[70.Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|[C++](week6_dynamic_programming/70.climbing-stairs.cpp)|Easy|[week6_dynamic_programming](week6_dynamic_programming)
--|[71.Simplify Path](https://leetcode.com/problems/simplify-path)||Medium|
+✔|[71.Simplify Path](https://leetcode.com/problems/simplify-path)|[C++](week19_stack/71.simplify-path.cpp)|Medium|[week19_stack](week19_stack)
 ✔|[72.Edit Distance](https://leetcode.com/problems/edit-distance)|[C++](week6_dynamic_programming/72.edit-distance.cpp)|Hard|[week6_dynamic_programming](week6_dynamic_programming)
 -|[73.Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes)||Medium|
 ✔|[74.Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|[C++](week8_binary_search/74.search-a-2d-matrix.cpp)|Medium|[week8_binary_search](week8_binary_search)
@@ -224,7 +224,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[221.Maximal Square](https://leetcode.com/problems/maximal-square)||Medium|
 -|[222.Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes)||Medium|
 -|[223.Rectangle Area](https://leetcode.com/problems/rectangle-area)||Medium|
--|[224.Basic Calculator](https://leetcode.com/problems/basic-calculator)||Hard|
+✔|[224.Basic Calculator](https://leetcode.com/problems/basic-calculator)|[C++](week19_stack/224.basic-calculator.cpp)|Hard|[week19_stack](week19_stack)
 ✔|[225.Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues)|[C++](week9_stack_and_queue/225.implement-stack-using-queues.cpp)|Easy|[week9_stack_and_queue](week9_stack_and_queue)
 ✔|[226.Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree)|[C++](week3_tree/226.invert_binary_tree.cpp)|Easy|[week3_tree](week3_tree)
 ✔|[227.Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)|[C++](week17_string/227.basic-calculator-ii.cpp)|Medium|[week17_string](week17_string)
@@ -341,7 +341,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[338.Counting Bits](https://leetcode.com/problems/counting-bits)|[Rust](week11_bit_manipulation/338-counting-bits.rs)|Medium|[week11_bit_manipulation](week11_bit_manipulation)
 -|[339.Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum)||Easy|
 -|[340.Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)||Hard|
--|[341.Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)||Medium|
+✔|[341.Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)|[C++](week19_stack/341.flatten-nested-list-iterator.cpp)|Medium|[week19_stack](week19_stack)
 -|[342.Power of Four](https://leetcode.com/problems/power-of-four)||Easy|
 -|[343.Integer Break](https://leetcode.com/problems/integer-break)||Medium|
 ✔|[344.Reverse String](https://leetcode.com/problems/reverse-string)|[C++](week17_string/344.reverse-string.cpp)|Easy|[week17_string](week17_string)
@@ -385,7 +385,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[382.Linked List Random Node](https://leetcode.com/problems/linked-list-random-node)||Medium|
 -|[383.Ransom Note](https://leetcode.com/problems/ransom-note)||Easy|
 -|[384.Shuffle an Array](https://leetcode.com/problems/shuffle-an-array)||Medium|
--|[385.Mini Parser](https://leetcode.com/problems/mini-parser)||Medium|
+✔|[385.Mini Parser](https://leetcode.com/problems/mini-parser)|[C++](week19_stack/385.mini-parser.cpp)|Medium|[week19_stack](week19_stack)
 -|[386.Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers)||Medium|
 -|[387.First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)||Easy|
 -|[388.Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path)||Medium|
@@ -682,7 +682,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[679.24 Game](https://leetcode.com/problems/24-game)||Hard|
 -|[680.Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)||Easy|
 -|[681.Next Closest Time](https://leetcode.com/problems/next-closest-time)||Medium|
--|[682.Baseball Game](https://leetcode.com/problems/baseball-game)||Easy|
+✔|[682.Baseball Game](https://leetcode.com/problems/baseball-game)|[C++](week19_stack/682.baseball-game.cpp)|Easy|[week19_stack](week19_stack)
 -|[683.K Empty Slots](https://leetcode.com/problems/k-empty-slots)||Hard|
 -|[684.Redundant Connection](https://leetcode.com/problems/redundant-connection)||Medium|
 -|[685.Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii)||Hard|
@@ -690,7 +690,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[687.Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path)|[C++](week4_backtrack/687.longest-univalue-path.cpp)|Easy|[week4_backtrack](week4_backtrack)
 -|[688.Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard)||Medium|
 -|[689.Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays)||Hard|
--|[690.Employee Importance](https://leetcode.com/problems/employee-importance)||Easy|
+✔|[690.Employee Importance](https://leetcode.com/problems/employee-importance)|[C++](week19_stack/690.employee-importance.cpp)|Easy|[week19_stack](week19_stack)
 -|[691.Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word)||Hard|
 -|[692.Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)||Medium|
 -|[693.Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)||Easy|
@@ -844,7 +844,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[841.Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)||Medium|
 -|[842.Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence)||Medium|
 -|[843.Guess the Word](https://leetcode.com/problems/guess-the-word)||Hard|
--|[844.Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)||Easy|
+✔|[844.Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)|[C++](week19_stack/844.backspace-string-compare.cpp)|Easy|[week19_stack](week19_stack)
 -|[845.Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array)||Medium|
 -|[846.Hand of Straights](https://leetcode.com/problems/hand-of-straights)||Medium|
 -|[847.Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)||Hard|
@@ -921,7 +921,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[918.Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray)||Medium|
 -|[919.Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter)||Medium|
 -|[920.Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists)||Hard|
--|[921.Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid)||Medium|
+✔|[921.Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid)|[C++](week19_stack/921.minimum-add-to-make-parentheses-valid.cpp)|Medium|[week19_stack](week19_stack)
 ✔|[922.Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii)|[C++](week10_sort/922.sort-array-by-parity-ii.cpp), [Rust](week10_sort/922-sort-array-by-parity-ii.rs)|Easy|[week10_sort](week10_sort)
 -|[923.3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity)||Medium|
 -|[924.Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread)||Hard|
@@ -975,7 +975,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[972.Equal Rational Numbers](https://leetcode.com/problems/equal-rational-numbers)||Hard|
 ✔|[973.K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin)|[Rust](week10_sort/973-k-closest-points-to-origin.rs)|Medium|[week10_sort](week10_sort)
 -|[974.Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k)||Medium|
--|[975.Odd Even Jump](https://leetcode.com/problems/odd-even-jump)||Hard|
+✔|[975.Odd Even Jump](https://leetcode.com/problems/odd-even-jump)|[C++](week19_stack/975.odd-even-jump.cpp)|Hard|[week19_stack](week19_stack)
 ✔|[976.Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle)|[C++](week10_sort/976.largest-perimeter-triangle.cpp), [Rust](week10_sort/976-largest-perimeter-triangle.rs)|Easy|[week10_sort](week10_sort)
 -|[977.Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)||Easy|
 -|[978.Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray)||Medium|
@@ -1047,7 +1047,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1044.Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring)||Hard|
 -|[1045.Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products)||Medium|
 -|[1046.Last Stone Weight](https://leetcode.com/problems/last-stone-weight)||Easy|
--|[1047.Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)||Easy|
+✔|[1047.Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|[C++](week19_stack/1047.remove-all-adjacent-duplicates-in-string.cpp)|Easy|[week19_stack](week19_stack)
 -|[1048.Longest String Chain](https://leetcode.com/problems/longest-string-chain)||Medium|
 -|[1049.Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii)||Medium|
 -|[1050.Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times)||Easy|
