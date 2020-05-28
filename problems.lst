@@ -2703,3 +2703,211 @@ Product of the Last K Numbers    		35.0%	Medium
 Maximum Number of Events That Can Be Attended    		28.1%	Medium	
 1354	
 Construct Target Array With Multiple Sums    		41.0%	Hard
+	1355
+Activity Participants    		66.3%	Medium
+1356
+Sort Integers by The Number of 1 Bits    		68.3%	Easy
+1357
+Apply Discount Every n Orders    		64.9%	Medium
+1358
+Number of Substrings Containing All Three Characters    		56.0%	Medium
+1359
+Count All Valid Pickup and Delivery Options    		57.6%	Hard
+1360
+Number of Days Between Two Dates    		49.4%	Easy
+1361
+Validate Binary Tree Nodes    		53.6%	Medium
+1362
+Closest Divisors    		56.0%	Medium
+1363
+Largest Multiple of Three    		33.0%	Hard
+1364
+Number of Trusted Contacts of a Customer    		72.6%	Medium
+1365
+How Many Numbers Are Smaller Than the Current Number    		85.1%	Easy
+1366
+Rank Teams by Votes    		51.7%	Medium
+1367
+Linked List in Binary Tree    		39.2%	Medium
+1368
+Minimum Cost to Make at Least One Valid Path in a Grid    		53.1%	Hard
+1369
+Get the Second Most Recent Activity    		62.5%	Hard
+1370
+Increasing Decreasing String    		75.5%	Easy
+1371
+Find the Longest Substring Containing Vowels in Even Counts    		57.1%	Medium
+1372
+Longest ZigZag Path in a Binary Tree    		53.0%	Medium
+1373
+Maximum Sum BST in Binary Tree    		42.1%	Hard
+1374
+Generate a String With Characters That Have Odd Counts    		75.8%	Easy
+1375
+Bulb Switcher III    		61.2%	Medium
+1376
+Time Needed to Inform All Employees    		55.0%	Medium
+1377
+Frog Position After T Seconds    		33.1%	Hard
+1378
+Replace Employee ID With The Unique Identifier    		89.0%	Easy
+1379
+Find a Corresponding Node of a Binary Tree in a Clone of That Tree    		83.6%	Medium
+1380
+Lucky Numbers in a Matrix    		71.6%	Easy
+1381
+Design a Stack With Increment Operation    		73.4%	Medium
+1382
+Balance a Binary Search Tree    		74.4%	Medium
+1383
+Maximum Performance of a Team    		31.0%	Hard
+1384
+Total Sales Amount by Year    		61.2%	Hard
+1385
+Find the Distance Value Between Two Arrays    		67.7%	Easy
+1386
+Cinema Seat Allocation    		34.0%	Medium
+1387
+Sort Integers by The Power Value    		70.4%	Medium
+1388
+Pizza With 3n Slices    		44.0%	Hard
+1389
+Create Target Array in the Given Order    		82.7%	Easy
+1390
+Four Divisors    		37.8%	Medium
+1391
+Check if There is a Valid Path in a Grid    		44.8%	Medium
+1392
+Longest Happy Prefix    		39.3%	Hard
+1393
+Capital Gain/Loss    		91.3%	Medium
+1394
+Find Lucky Integer in an Array    		65.9%	Easy
+1395
+Count Number of Teams    		81.1%	Medium
+1396
+Design Underground System    		61.5%	Medium
+1397
+Find All Good Strings    		36.5%	Hard
+1398
+Customers Who Bought Products A and B but Not C    		79.0%	Medium
+1399
+Count Largest Group    		64.4%	Easy
+1400
+Construct K Palindrome Strings    		59.1%	Medium
+1401
+Circle and Rectangle Overlapping    		41.0%	Medium
+1402
+Reducing Dishes    		73.8%	Hard
+1403
+Minimum Subsequence in Non-Increasing Order    		71.4%	Easy
+1404
+Number of Steps to Reduce a Number in Binary Representation to One    		49.7%	Medium
+1405
+Longest Happy String    		46.5%	Medium
+1406
+Stone Game III    		55.3%	Hard
+1407
+Top Travellers    		81.0%	Easy
+1408
+String Matching in an Array    		60.3%	Easy
+1409
+Queries on a Permutation With Key    		81.9%	Medium
+1410
+HTML Entity Parser    		53.9%	Medium
+1411
+Number of Ways to Paint N × 3 Grid    		61.7%	Hard
+1412
+Find the Quiet Students in All Exams    		67.5%	Hard
+1413
+Minimum Value to Get Positive Step by Step Sum    		65.3%	Easy
+1414
+Find the Minimum Number of Fibonacci Numbers Whose Sum Is K    		59.9%	Medium
+1415
+The k-th Lexicographical String of All Happy Strings of Length n    		70.6%	Medium
+1416
+Restore The Array    		36.0%	Hard
+1417
+Reformat The String    		55.4%	Easy
+1418
+Display Table of Food Orders in a Restaurant    		64.0%	Medium
+1419
+Minimum Number of Frogs Croaking    		45.1%	Medium
+1420
+Build Array Where You Can Find The Maximum Exactly K Comparisons    		66.1%	Hard
+1421
+NPV Queries    		80.3%	Medium
+1422
+Maximum Score After Splitting a String    		54.3%	Easy
+1423
+Maximum Points You Can Obtain from Cards    		39.1%	Medium
+1424
+Diagonal Traverse II    		40.2%	Medium
+1425
+Constrained Subsequence Sum    		43.4%	Hard
+1426
+Counting Elements    		58.5%	Easy
+1427
+Perform String Shifts    		52.9%	Easy
+1428
+Leftmost Column with at Least a One    		45.6%	Medium
+1429
+First Unique Number    		46.2%	Medium
+1430
+Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree    		44.6%	Medium
+1431
+Kids With the Greatest Number of Candies    		88.7%	Easy
+1432
+Max Difference You Can Get From Changing an Integer    		42.7%	Medium
+1433
+Check If a String Can Break Another String    		65.5%	Medium
+1434
+Number of Ways to Wear Different Hats to Each Other    		36.7%	Hard
+1435
+Create a Session Bar Chart    		75.6%	Easy
+1436
+Destination City    		78.7%	Easy
+1437
+Check If All 1's Are at Least Length K Places Away    		65.0%	Medium
+1438
+Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit    		40.7%	Medium
+1439
+Find the Kth Smallest Sum of a Matrix With Sorted Rows    		57.4%	Hard
+1440
+Evaluate Boolean Expression    		66.5%	Medium
+1441
+Build an Array With Stack Operations    		69.1%	Easy
+1442
+Count Triplets That Can Form Two Arrays of Equal XOR    		67.6%	Medium
+1443
+Minimum Time to Collect All Apples in a Tree    		57.3%	Medium
+1444
+Number of Ways of Cutting a Pizza    		52.1%	Hard
+1445
+Apples & Oranges    		88.0%	Medium
+1446
+Consecutive Characters    		62.8%	Easy
+1447
+Simplified Fractions    		60.1%	Medium
+1448
+Count Good Nodes in Binary Tree    		69.8%	Medium
+1449
+Form Largest Integer With Digits That Add up to Target    		39.9%	Hard
+1450
+Number of Students Doing Homework at a Given Time    		80.7%	Easy
+1451
+Rearrange Words in a Sentence    		52.6%	Medium
+1452
+People Whose List of Favorite Companies Is Not a Subset of Another List    		52.2%	Medium
+1453
+Maximum Number of Darts Inside of a Circular Dartboard    		32.5%	Hard
+1454
+Active Users    New 36.0%	Medium
+1455
+Check If a Word Occurs As a Prefix of Any Word in a Sentence    		66.7%	Easy
+1456
+Maximum Number of Vowels in a Substring of Given Length    		51.0%	Medium
+1457
+Pseudo-Palindromic Paths in a Binary Tree    		66.1%	Medium
+1458
+Max Dot Product of Two Subsequences    		41.0%	Hard
