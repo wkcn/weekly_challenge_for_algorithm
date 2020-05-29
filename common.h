@@ -1,28 +1,30 @@
+#include <unistd.h>
+
+#include <algorithm>
 #include <cassert>
-#include <iostream>
 #include <chrono>
+#include <climits>
+#include <cstring>
 #include <functional>
+#include <iostream>
 #include <list>
+#include <map>
 #include <memory>
-#include <vector>
-#include <random>
-#include <string>
-#include <sstream>
 #include <queue>
+#include <random>
 #include <regex>
 #include <set>
+#include <sstream>
 #include <stack>
-#include <map>
-#include <climits>
+#include <string>
 #include <unordered_set>
 #include <utility>
-#include <algorithm>
-#include <cstring>
-#include <unistd.h>
+#include <vector>
 using namespace std;
 
 vector<string> split(const string &s, const string &sep) {
-  // reference: https://stackoverflow.com/questions/26328793/how-to-split-string-with-delimiter-using-c
+  // reference:
+  // https://stackoverflow.com/questions/26328793/how-to-split-string-with-delimiter-using-c
   vector<string> out;
   string::size_type lastPos = s.find_first_not_of(sep);
   string::size_type pos = s.find_first_of(sep, lastPos);
@@ -37,15 +39,18 @@ vector<string> split(const string &s, const string &sep) {
 template <typename T>
 T STRING2NUMBER(const string &s);
 
-template <> int STRING2NUMBER(const string &s) {
+template <>
+int STRING2NUMBER(const string &s) {
   return stoi(s);
 }
 
-template <> float STRING2NUMBER(const string &s) {
+template <>
+float STRING2NUMBER(const string &s) {
   return stof(s);
 }
 
-template <> double STRING2NUMBER(const string &s) {
+template <>
+double STRING2NUMBER(const string &s) {
   return stod(s);
 }
 
@@ -64,18 +69,20 @@ void INPUT_ARRAY(vector<T> &vs) {
     int n;
     T data;
     stringstream ss;
-    ss << s; 
+    ss << s;
     ss >> n;
-    while(n--) {
-      if (ss.eof()) cin >> data;
-      else ss >> data;
+    while (n--) {
+      if (ss.eof())
+        cin >> data;
+      else
+        ss >> data;
       vs.push_back(data);
     }
   }
 }
 
 template <typename T>
-void INPUT_ARRAY2D(vector<vector<T> > &vs) {
+void INPUT_ARRAY2D(vector<vector<T>> &vs) {
   string s;
   do {
     getline(cin, s);
@@ -87,8 +94,10 @@ void INPUT_ARRAY2D(vector<vector<T> > &vs) {
     int left = 0;
     while (1) {
       for (char &c : s) {
-        if (c == '[') ++left;
-        else if (c == ']') --left;
+        if (c == '[')
+          ++left;
+        else if (c == ']')
+          --left;
       }
       if (left == 0) break;
       getline(cin, s);
@@ -116,13 +125,17 @@ void INPUT_ARRAY2D(vector<vector<T> > &vs) {
     int row, col;
     stringstream ss;
     ss << s;
-    if (ss.eof()) cin >> row >> col;
-    else ss >> row >> col;
+    if (ss.eof())
+      cin >> row >> col;
+    else
+      ss >> row >> col;
     vs.resize(row, vector<T>(col));
     for (int r = 0; r < row; ++r) {
       for (int c = 0; c < col; ++c) {
-        if (ss.eof()) cin >> vs[r][c];
-        else ss >> vs[r][c]; 
+        if (ss.eof())
+          cin >> vs[r][c];
+        else
+          ss >> vs[r][c];
       }
     }
   }
@@ -132,8 +145,10 @@ template <typename T>
 void PRINT_ARRAY(const vector<T> &vs) {
   bool first = true;
   for (const T &data : vs) {
-    if (!first) cout << ", ";
-    else first = false;
+    if (!first)
+      cout << ", ";
+    else
+      first = false;
     cout << data;
   }
   cout << endl;
@@ -148,21 +163,20 @@ vector<int> RANGE(int start, int end) {
   return res;
 }
 
-vector<int> RANGE(int len) {
-  return RANGE(0, len);
-}
+vector<int> RANGE(int len) { return RANGE(0, len); }
 
 template <typename TreeNode>
-TreeNode* INPUT_BTREE_VLR() {
-  stack<TreeNode**> st;
-  TreeNode* root = nullptr;
+TreeNode *INPUT_BTREE_VLR() {
+  stack<TreeNode **> st;
+  TreeNode *root = nullptr;
   st.push(&root);
   int n;
   cin >> n;
   while (n--) {
     int v;
     cin >> v;
-    TreeNode** p = st.top(); st.pop();
+    TreeNode **p = st.top();
+    st.pop();
     if (v) {
       // valid
       *p = new TreeNode(v);
@@ -174,16 +188,17 @@ TreeNode* INPUT_BTREE_VLR() {
 }
 
 template <typename TreeNode>
-TreeNode* INPUT_BTREE_LEVEL() {
-  queue<TreeNode**> q;
-  TreeNode* root = nullptr;
+TreeNode *INPUT_BTREE_LEVEL() {
+  queue<TreeNode **> q;
+  TreeNode *root = nullptr;
   q.push(&root);
   int n;
   cin >> n;
   while (n--) {
     int v;
     cin >> v;
-    TreeNode** p = q.front(); q.pop();
+    TreeNode **p = q.front();
+    q.pop();
     if (v) {
       // valid
       *p = new TreeNode(v);
@@ -195,15 +210,16 @@ TreeNode* INPUT_BTREE_LEVEL() {
 }
 
 template <typename TreeNode>
-void PRINT_BTREE_VLR(TreeNode* root) {
+void PRINT_BTREE_VLR(TreeNode *root) {
   if (!root) {
     cout << "empty tree" << endl;
   }
-  stack<TreeNode*> q;
+  stack<TreeNode *> q;
   q.push(root);
   bool first = true;
   while (!q.empty()) {
-    TreeNode* r = q.top(); q.pop();
+    TreeNode *r = q.top();
+    q.pop();
     if (!first) cout << " ";
     first = false;
     cout << r->val;
@@ -214,15 +230,16 @@ void PRINT_BTREE_VLR(TreeNode* root) {
 }
 
 template <typename TreeNode>
-void PRINT_BTREE_LEVEL(TreeNode* root) {
+void PRINT_BTREE_LEVEL(TreeNode *root) {
   if (!root) {
     cout << "empty tree" << endl;
   }
-  queue<TreeNode*> q;
+  queue<TreeNode *> q;
   q.push(root);
   bool first = true;
   while (!q.empty()) {
-    TreeNode* r = q.front(); q.pop();
+    TreeNode *r = q.front();
+    q.pop();
     if (!first) cout << " ";
     first = false;
     cout << r->val;
@@ -233,12 +250,12 @@ void PRINT_BTREE_LEVEL(TreeNode* root) {
 }
 
 template <typename ListNode>
-ListNode* INPUT_LIST() {
+ListNode *INPUT_LIST() {
   int n;
   cin >> n;
   ListNode dummy(0);
   ListNode *tail = &dummy;
-  while(n--) {
+  while (n--) {
     int val;
     cin >> val;
     tail->next = new ListNode(val);
@@ -248,11 +265,13 @@ ListNode* INPUT_LIST() {
 }
 
 template <typename ListNode>
-void PRINT_LIST(ListNode* head) {
+void PRINT_LIST(ListNode *head) {
   bool first = true;
-  while(head) {
-    if (!first) cout << " -> ";
-    else first = false;
+  while (head) {
+    if (!first)
+      cout << " -> ";
+    else
+      first = false;
     cout << head->val;
     head = head->next;
   }
@@ -260,7 +279,7 @@ void PRINT_LIST(ListNode* head) {
 }
 
 template <typename ListNode, typename T>
-ListNode* Vector2List(const vector<T> &vec) {
+ListNode *Vector2List(const vector<T> &vec) {
   ListNode *head = nullptr;
   ListNode **fill = &head;
   for (const T &val : vec) {
@@ -272,14 +291,16 @@ ListNode* Vector2List(const vector<T> &vec) {
 }
 
 template <typename T>
-void PRINT_MATRIX(const vector<vector<T> > &mat) {
+void PRINT_MATRIX(const vector<vector<T>> &mat) {
   int row = mat.size();
   int col = mat[0].size();
   for (int r = 0; r < row; ++r) {
     bool first = true;
     for (int c = 0; c < col; ++c) {
-      if (!first) cout << " ";
-      else first = false;
+      if (!first)
+        cout << " ";
+      else
+        first = false;
       cout << mat[r][c];
     }
     cout << endl;
@@ -287,29 +308,29 @@ void PRINT_MATRIX(const vector<vector<T> > &mat) {
 }
 #define PRINT_ARRAY2D PRINT_MATRIX
 
-const char HEXCH[16] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
-template<typename T>
-string HEX2STR(const T& c) {
+const char HEXCH[16] = {'0', '1', '2', '3', '4', '5', '6', '7',
+                        '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
+template <typename T>
+string HEX2STR(const T &c) {
   string res;
   int len = sizeof(T);
-  const uint8_t* p = reinterpret_cast<const uint8_t*>(&c);
+  const uint8_t *p = reinterpret_cast<const uint8_t *>(&c);
   for (int i = len - 1; i >= 0; --i) {
     uint8_t num = *(p + i);
-    res += HEXCH[(num>>4)&0xF];
-    res += HEXCH[num&0xF];
+    res += HEXCH[(num >> 4) & 0xF];
+    res += HEXCH[num & 0xF];
   }
   return res;
 }
 
 class Timer {
-using time_point = std::chrono::steady_clock::time_point;
-using ms_type = std::chrono::duration<int, ratio<1, 1000> >;
-using milliseconds = std::chrono::milliseconds;
-public:
-  Timer(const string name="") : name_(name) {reset();}
-  void tic() {
-    tic_time_ = get_time_now();
-  }
+  using time_point = std::chrono::steady_clock::time_point;
+  using ms_type = std::chrono::duration<int, ratio<1, 1000>>;
+  using milliseconds = std::chrono::milliseconds;
+
+ public:
+  Timer(const string name = "") : name_(name) { reset(); }
+  void tic() { tic_time_ = get_time_now(); }
   void toc(bool verbose = true) {
     toc_time_ = get_time_now();
     if (verbose) {
@@ -319,27 +340,25 @@ public:
   void show() {
     cout << "Timer";
     if (name_.size()) cout << "[" << name_ << "]";
-    cout << ": " << "toc: " << get_tic_escape() << "ms tot: " << get_reset_escape() << "ms" << endl;
+    cout << ": "
+         << "toc: " << get_tic_escape() << "ms tot: " << get_reset_escape()
+         << "ms" << endl;
   }
   void reset() {
     reset_time_ = get_time_now();
     tic();
   }
-  int get_tic_escape() {
-    return get_time_diff(toc_time_, tic_time_);
-  }
-  int get_reset_escape() {
-    return get_time_diff(toc_time_, reset_time_);
-  }
-private:
-  time_point get_time_now() {
-    return std::chrono::steady_clock::now();
-  }
+  int get_tic_escape() { return get_time_diff(toc_time_, tic_time_); }
+  int get_reset_escape() { return get_time_diff(toc_time_, reset_time_); }
+
+ private:
+  time_point get_time_now() { return std::chrono::steady_clock::now(); }
   int get_time_diff(time_point a, time_point b) {
     milliseconds diff = std::chrono::duration_cast<milliseconds>(a - b);
-    return diff.count(); 
+    return diff.count();
   }
-private:
+
+ private:
   string name_;
   time_point reset_time_;
   time_point tic_time_;
