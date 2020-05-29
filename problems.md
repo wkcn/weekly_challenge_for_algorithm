@@ -128,7 +128,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[125.Valid Palindrome](https://leetcode.com/problems/valid-palindrome)||Easy|
 -|[126.Word Ladder II](https://leetcode.com/problems/word-ladder-ii)||Hard|
 -|[127.Word Ladder](https://leetcode.com/problems/word-ladder)||Medium|
--|[128.Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)||Hard|
+✔|[128.Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence)|[C++](week22_array3/128.longest-consecutive-sequence.cpp)|Hard|[week22_array3](week22_array3)
 -|[129.Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)||Medium|
 ✔|[130.Surrounded Regions](https://leetcode.com/problems/surrounded-regions)|[C++](week16_dfs_and_bfs2/130.surrounded-regions.cpp)|Medium|[week16_dfs_and_bfs2](week16_dfs_and_bfs2)
 -|[131.Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning)||Medium|
@@ -154,7 +154,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[151.Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string)|[C++](week17_string/151.reverse-words-in-a-string.cpp)|Medium|[week17_string](week17_string)
 ✔|[152.Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray)|[C++](week18_dynamic_programming2/152.maximum-product-subarray.cpp)|Medium|[week18_dynamic_programming2](week18_dynamic_programming2)
 -|[153.Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)||Medium|
--|[154.Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)||Hard|
+✔|[154.Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii)|[C++](week22_array3/154.find-minimum-in-rotated-sorted-array-ii.cpp)|Hard|[week22_array3](week22_array3)
 ✔|[155.Min Stack](https://leetcode.com/problems/min-stack)|[C++](week9_stack_and_queue/155.min-stack.cpp)|Easy|[week9_stack_and_queue](week9_stack_and_queue)
 -|[156.Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down)||Medium|
 -|[157.Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4)||Easy|
@@ -561,7 +561,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[558.Quad Tree Intersection](https://leetcode.com/problems/quad-tree-intersection)||Easy|
 ✔|[559.Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree)|[C++](week16_dfs_and_bfs2/559.maximum-depth-of-n-ary-tree.cpp)|Easy|[week16_dfs_and_bfs2](week16_dfs_and_bfs2)
 -|[560.Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)||Medium|
--|[561.Array Partition I](https://leetcode.com/problems/array-partition-i)||Easy|
+✔|[561.Array Partition I](https://leetcode.com/problems/array-partition-i)|[C++](week22_array3/561.array-partition-i.cpp)|Easy|[week22_array3](week22_array3)
 -|[562.Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix)||Medium|
 -|[563.Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt)||Easy|
 -|[564.Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome)||Hard|
@@ -1010,15 +1010,15 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1007.Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row)||Medium|
 -|[1008.Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)||Medium|
 -|[1009.Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer)||Easy|
--|[1010.Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)||Easy|
--|[1011.Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)||Medium|
+✔|[1010.Pairs of Songs With Total Durations Divisible by 60](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60)|[C++](week22_array3/1010.pairs-of-songs-with-total-durations-divisible-by-60.cpp)|Easy|[week22_array3](week22_array3)
+✔|[1011.Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days)|[C++](week22_array3/1011.capacity-to-ship-packages-within-d-days.cpp)|Medium|[week22_array3](week22_array3)
 -|[1012.Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits)||Hard|
--|[1013.Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum)||Easy|
--|[1014.Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair)||Medium|
+✔|[1013.Partition Array Into Three Parts With Equal Sum](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum)|[C++](week22_array3/1013.partition-array-into-three-parts-with-equal-sum.cpp)|Easy|[week22_array3](week22_array3)
+✔|[1014.Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair)|[C++](week22_array3/1014.best-sightseeing-pair.cpp)|Medium|[week22_array3](week22_array3)
 -|[1015.Smallest Integer Divisible by K](https://leetcode.com/problems/smallest-integer-divisible-by-k)||Medium|
 -|[1016.Binary String With Substrings Representing 1 To N](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n)||Medium|
 -|[1017.Convert to Base -2](https://leetcode.com/problems/convert-to-base--2)||Medium|
--|[1018.Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5)||Easy|
+✔|[1018.Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5)|[C++](week22_array3/1018.binary-prefix-divisible-by-5.cpp)|Easy|[week22_array3](week22_array3)
 -|[1019.Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list)||Medium|
 -|[1020.Number of Enclaves](https://leetcode.com/problems/number-of-enclaves)||Medium|
 -|[1021.Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses)||Easy|
@@ -1275,7 +1275,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1274.Number of Ships in a Rectangle](https://leetcode.com/problems/number-of-ships-in-a-rectangle)||Hard|
 -|[1275.Find Winner on a Tic Tac Toe Game](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)||Easy|
 -|[1276.Number of Burgers with No Waste of Ingredients](https://leetcode.com/problems/number-of-burgers-with-no-waste-of-ingredients)||Medium|
--|[1277.Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)||Medium|
+✔|[1277.Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones)|[C++](week22_array3/1277.count-square-submatrices-with-all-ones.cpp)|Medium|[week22_array3](week22_array3)
 -|[1278.Palindrome Partitioning III](https://leetcode.com/problems/palindrome-partitioning-iii)||Hard|
 -|[1279.Traffic Light Controlled Intersection](https://leetcode.com/problems/traffic-light-controlled-intersection)||Easy|
 -|[1280.Students and Examinations](https://leetcode.com/problems/students-and-examinations)||Easy|

@@ -21,25 +21,109 @@
 #include <unistd.h>
 using namespace std;
 
+vector<string> split(const string &s, const string &sep) {
+  // reference: https://stackoverflow.com/questions/26328793/how-to-split-string-with-delimiter-using-c
+  vector<string> out;
+  string::size_type lastPos = s.find_first_not_of(sep);
+  string::size_type pos = s.find_first_of(sep, lastPos);
+  while (pos != string::npos || lastPos != string::npos) {
+    out.emplace_back(s.substr(lastPos, pos - lastPos));
+    lastPos = s.find_first_not_of(sep, pos);
+    pos = s.find_first_of(sep, lastPos);
+  }
+  return out;
+}
+
+template <typename T>
+T STRING2NUMBER(const string &s);
+
+template <> int STRING2NUMBER(const string &s) {
+  return stoi(s);
+}
+
+template <> float STRING2NUMBER(const string &s) {
+  return stof(s);
+}
+
+template <> double STRING2NUMBER(const string &s) {
+  return stod(s);
+}
+
 template <typename T>
 void INPUT_ARRAY(vector<T> &vs) {
-  int n;
-  cin >> n;
-  T data;
-  while(n--) {
-    cin >> data;
-    vs.push_back(data);
+  string s;
+  getline(cin, s);
+  // remove space
+  s.erase(0, s.find_first_not_of(" "));
+  if (s[0] == '[') {
+    vector<string> sp = split(s.substr(1, s.size() - 2), ",");
+    for (auto &s : sp) {
+      vs.emplace_back(STRING2NUMBER<T>(s));
+    }
+  } else {
+    int n;
+    T data;
+    stringstream ss;
+    ss << s; 
+    ss >> n;
+    while(n--) {
+      if (ss.eof()) cin >> data;
+      else ss >> data;
+      vs.push_back(data);
+    }
   }
 }
 
 template <typename T>
 void INPUT_ARRAY2D(vector<vector<T> > &vs) {
-  int row, col;
-  cin >> row >> col;
-  vs.resize(row, vector<T>(col));
-  for (int r = 0; r < row; ++r) {
-    for (int c = 0; c < col; ++c) {
-      cin >> vs[r][c];
+  string s;
+  do {
+    getline(cin, s);
+    // remove space
+    s.erase(0, s.find_first_not_of(" "));
+  } while (s.empty());
+  if (s[0] == '[') {
+    string buf = s;
+    int left = 0;
+    while (1) {
+      for (char &c : s) {
+        if (c == '[') ++left;
+        else if (c == ']') --left;
+      }
+      if (left == 0) break;
+      getline(cin, s);
+      buf += s;
+    }
+    int start;
+    for (int i = 0; i < buf.size(); ++i) {
+      char &c = buf[i];
+      if (c == '[') {
+        if (++left == 2) {
+          start = i + 1;
+        }
+      } else if (c == ']') {
+        if (left-- == 2) {
+          vector<T> rows;
+          vector<string> sp = split(buf.substr(start, i - start), ",");
+          for (string &sv : sp) {
+            rows.push_back(STRING2NUMBER<T>(sv));
+          }
+          vs.emplace_back(std::move(rows));
+        }
+      }
+    }
+  } else {
+    int row, col;
+    stringstream ss;
+    ss << s;
+    if (ss.eof()) cin >> row >> col;
+    else ss >> row >> col;
+    vs.resize(row, vector<T>(col));
+    for (int r = 0; r < row; ++r) {
+      for (int c = 0; c < col; ++c) {
+        if (ss.eof()) cin >> vs[r][c];
+        else ss >> vs[r][c]; 
+      }
     }
   }
 }
@@ -201,6 +285,7 @@ void PRINT_MATRIX(const vector<vector<T> > &mat) {
     cout << endl;
   }
 }
+#define PRINT_ARRAY2D PRINT_MATRIX
 
 const char HEXCH[16] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
 template<typename T>

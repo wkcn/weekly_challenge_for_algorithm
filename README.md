@@ -9,11 +9,13 @@ Thanks [@shicheng0829](https://github.com/shicheng0829), [@wkcn](https://github.
 
 ## Progress
 ```
- 14%|██████▌                                       | 207/1456 [3528:00:00<21287:18:15, 61356.52s/it]
+ 15%|██████▊                                       | 216/1456 [3696:00:00<21217:46:40, 61600.00s/it]
 ```
 [[Problem List]](./problems.md)
 
 ## Topics
+
+[Week 22 - Array3](./week22_array3)
 
 [Week 21 - Bit Manipulation2](./week21_bit_manipulation2)
 
