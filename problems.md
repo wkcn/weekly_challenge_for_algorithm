@@ -187,10 +187,10 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[184.Department Highest Salary](https://leetcode.com/problems/department-highest-salary)||Medium|
 -|[185.Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries)||Hard|
 -|[186.Reverse Words in a String II](https://leetcode.com/problems/reverse-words-in-a-string-ii)||Medium|
--|[187.Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)||Medium|
+✔|[187.Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences)|[C++](week21_bit_manipulation2/187.repeated-dna-sequences.cpp)|Medium|[week21_bit_manipulation2](week21_bit_manipulation2)
 ✔|[188.Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)|[C++](week18_dynamic_programming2/188.best-time-to-buy-and-sell-stock-iv.cpp)|Hard|[week18_dynamic_programming2](week18_dynamic_programming2)
 -|[189.Rotate Array](https://leetcode.com/problems/rotate-array)||Easy|
--|[190.Reverse Bits](https://leetcode.com/problems/reverse-bits)||Easy|
+✔|[190.Reverse Bits](https://leetcode.com/problems/reverse-bits)|[C++](week21_bit_manipulation2/190.reverse-bits.cpp)|Easy|[week21_bit_manipulation2](week21_bit_manipulation2)
 ✔|[191.Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits)|[C++](week11_bit_manipulation/191.number-of-1-bits.cpp)|Easy|[week11_bit_manipulation](week11_bit_manipulation)
 -|[192.Word Frequency](https://leetcode.com/problems/word-frequency)||Medium|
 -|[193.Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers)||Easy|
@@ -318,7 +318,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[315.Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)||Hard|
 -|[316.Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters)||Hard|
 -|[317.Shortest Distance from All Buildings](https://leetcode.com/problems/shortest-distance-from-all-buildings)||Hard|
--|[318.Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)||Medium|
+✔|[318.Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths)|[C++](week21_bit_manipulation2/318.maximum-product-of-word-lengths.cpp)|Medium|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[319.Bulb Switcher](https://leetcode.com/problems/bulb-switcher)||Medium|
 -|[320.Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation)||Medium|
 -|[321.Create Maximum Number](https://leetcode.com/problems/create-maximum-number)||Hard|
@@ -342,7 +342,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[339.Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum)||Easy|
 -|[340.Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)||Hard|
 ✔|[341.Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)|[C++](week19_stack/341.flatten-nested-list-iterator.cpp)|Medium|[week19_stack](week19_stack)
--|[342.Power of Four](https://leetcode.com/problems/power-of-four)||Easy|
+✔|[342.Power of Four](https://leetcode.com/problems/power-of-four)|[C++](week21_bit_manipulation2/342.power-of-four.cpp)|Easy|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[343.Integer Break](https://leetcode.com/problems/integer-break)||Medium|
 ✔|[344.Reverse String](https://leetcode.com/problems/reverse-string)|[C++](week17_string/344.reverse-string.cpp)|Easy|[week17_string](week17_string)
 ✔|[345.Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string)|[C++](week17_string/345.reverse-vowels-of-a-string.cpp)|Easy|[week17_string](week17_string)
@@ -371,7 +371,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[368.Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset)||Medium|
 -|[369.Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list)||Medium|
 -|[370.Range Addition](https://leetcode.com/problems/range-addition)||Medium|
--|[371.Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)||Easy|
+✔|[371.Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers)|[C++](week21_bit_manipulation2/371.sum-of-two-integers.cpp)|Easy|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[372.Super Pow](https://leetcode.com/problems/super-pow)||Medium|
 -|[373.Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)||Medium|
 -|[374.Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower)||Easy|
@@ -389,7 +389,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[386.Lexicographical Numbers](https://leetcode.com/problems/lexicographical-numbers)||Medium|
 -|[387.First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string)||Easy|
 -|[388.Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path)||Medium|
--|[389.Find the Difference](https://leetcode.com/problems/find-the-difference)||Easy|
+✔|[389.Find the Difference](https://leetcode.com/problems/find-the-difference)|[C++](week21_bit_manipulation2/389.find-the-difference.cpp)|Easy|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[390.Elimination Game](https://leetcode.com/problems/elimination-game)||Medium|
 -|[391.Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle)||Hard|
 -|[392.Is Subsequence](https://leetcode.com/problems/is-subsequence)||Easy|
@@ -397,7 +397,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[394.Decode String](https://leetcode.com/problems/decode-string)|[C++](week5_dfs_and_bfs/394.decode-string.cpp)|Medium|[week5_dfs_and_bfs](week5_dfs_and_bfs)
 -|[395.Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)||Medium|
 -|[396.Rotate Function](https://leetcode.com/problems/rotate-function)||Medium|
--|[397.Integer Replacement](https://leetcode.com/problems/integer-replacement)||Medium|
+✔|[397.Integer Replacement](https://leetcode.com/problems/integer-replacement)|[C++](week21_bit_manipulation2/397.integer-replacement.cpp)|Medium|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[398.Random Pick Index](https://leetcode.com/problems/random-pick-index)||Medium|
 -|[399.Evaluate Division](https://leetcode.com/problems/evaluate-division)||Medium|
 -|[400.Nth Digit](https://leetcode.com/problems/nth-digit)||Medium|
@@ -405,7 +405,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[402.Remove K Digits](https://leetcode.com/problems/remove-k-digits)||Medium|
 -|[403.Frog Jump](https://leetcode.com/problems/frog-jump)||Hard|
 -|[404.Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves)||Easy|
--|[405.Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)||Easy|
+✔|[405.Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal)|[C++](week21_bit_manipulation2/405.convert-a-number-to-hexadecimal.cpp)|Easy|[week21_bit_manipulation2](week21_bit_manipulation2)
 ✔|[406.Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height)|[C++](week7_greedy/406.queue-reconstruction-by-height.cpp)|Medium|[week7_greedy](week7_greedy)
 -|[407.Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii)||Hard|
 -|[408.Valid Word Abbreviation](https://leetcode.com/problems/valid-word-abbreviation)||Easy|
@@ -421,7 +421,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[418.Sentence Screen Fitting](https://leetcode.com/problems/sentence-screen-fitting)||Medium|
 -|[419.Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board)||Medium|
 -|[420.Strong Password Checker](https://leetcode.com/problems/strong-password-checker)||Hard|
--|[421.Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array)||Medium|
+✔|[421.Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array)|[C++](week21_bit_manipulation2/421.maximum-xor-of-two-numbers-in-an-array.cpp)|Medium|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[422.Valid Word Square](https://leetcode.com/problems/valid-word-square)||Easy|
 -|[423.Reconstruct Original Digits from English](https://leetcode.com/problems/reconstruct-original-digits-from-english)||Medium|
 -|[424.Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)||Medium|
@@ -1123,7 +1123,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[1122.Relative Sort Array](https://leetcode.com/problems/relative-sort-array)|[C++](week20_sort2/1122.relative-sort-array.cpp)|Easy|[week20_sort2](week20_sort2)
 -|[1123.Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves)||Medium|
 -|[1124.Longest Well-Performing Interval](https://leetcode.com/problems/longest-well-performing-interval)||Medium|
--|[1125.Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team)||Hard|
+✔|[1125.Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team)|[C++](week21_bit_manipulation2/1125.smallest-sufficient-team.cpp)|Hard|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[1126.Active Businesses](https://leetcode.com/problems/active-businesses)||Medium|
 -|[1127.User Purchase Platform](https://leetcode.com/problems/user-purchase-platform)||Hard|
 -|[1128.Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)||Easy|
