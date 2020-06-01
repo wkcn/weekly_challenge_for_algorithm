@@ -9,11 +9,13 @@ Thanks [@shicheng0829](https://github.com/shicheng0829), [@wkcn](https://github.
 
 ## Progress
 ```
- 15%|██████▊                                       | 216/1456 [3696:00:00<21217:46:40, 61600.00s/it]
+ 15%|███████                                       | 222/1456 [3864:00:00<21478:16:12, 62659.46s/it]
 ```
 [[Problem List]](./problems.md)
 
 ## Topics
+
+[Week 23 - List3](./week23_list3)
 
 [Week 22 - Array3](./week22_array3)
 
