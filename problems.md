@@ -530,7 +530,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[527.Word Abbreviation](https://leetcode.com/problems/word-abbreviation)||Hard|
 -|[528.Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight)||Medium|
 -|[529.Minesweeper](https://leetcode.com/problems/minesweeper)||Medium|
--|[530.Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst)||Easy|
+✔|[530.Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst)|[C++](week24_tree3/530.minimum-absolute-difference-in-bst.cpp)|Easy|[week24_tree3](week24_tree3)
 -|[531.Lonely Pixel I](https://leetcode.com/problems/lonely-pixel-i)||Medium|
 -|[532.K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array)||Easy|
 -|[533.Lonely Pixel II](https://leetcode.com/problems/lonely-pixel-ii)||Medium|
@@ -538,7 +538,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[535.Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl)||Medium|
 -|[536.Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string)||Medium|
 -|[537.Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication)||Medium|
--|[538.Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree)||Easy|
+✔|[538.Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree)|[C++](week24_tree3/538.convert-bst-to-greater-tree.cpp)|Easy|[week24_tree3](week24_tree3)
 -|[539.Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference)||Medium|
 -|[540.Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array)||Medium|
 ✔|[541.Reverse String II](https://leetcode.com/problems/reverse-string-ii)|[C++](week17_string/541.reverse-string-ii.cpp)|Easy|[week17_string](week17_string)
@@ -834,7 +834,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[831.Masking Personal Information](https://leetcode.com/problems/masking-personal-information)||Medium|
 -|[832.Flipping an Image](https://leetcode.com/problems/flipping-an-image)||Easy|
 -|[833.Find And Replace in String](https://leetcode.com/problems/find-and-replace-in-string)||Medium|
--|[834.Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree)||Hard|
+✔|[834.Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree)|[C++](week24_tree3/834.sum-of-distances-in-tree.cpp)|Hard|[week24_tree3](week24_tree3)
 -|[835.Image Overlap](https://leetcode.com/problems/image-overlap)||Medium|
 -|[836.Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap)||Easy|
 -|[837.New 21 Game](https://leetcode.com/problems/new-21-game)||Medium|
@@ -1022,13 +1022,13 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[1019.Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list)|[C++](week23_list3/1019.next-greater-node-in-linked-list.cpp)|Medium|[week23_list3](week23_list3)
 -|[1020.Number of Enclaves](https://leetcode.com/problems/number-of-enclaves)||Medium|
 -|[1021.Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses)||Easy|
--|[1022.Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)||Easy|
+✔|[1022.Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)|[C++](week24_tree3/1022.sum-of-root-to-leaf-binary-numbers.cpp)|Easy|[week24_tree3](week24_tree3)
 -|[1023.Camelcase Matching](https://leetcode.com/problems/camelcase-matching)||Medium|
 -|[1024.Video Stitching](https://leetcode.com/problems/video-stitching)||Medium|
 -|[1025.Divisor Game](https://leetcode.com/problems/divisor-game)||Easy|
--|[1026.Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)||Medium|
+✔|[1026.Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)|[C++](week24_tree3/1026.maximum-difference-between-node-and-ancestor.cpp)|Medium|[week24_tree3](week24_tree3)
 -|[1027.Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence)||Medium|
--|[1028.Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal)||Hard|
+✔|[1028.Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal)|[C++](week24_tree3/1028.recover-a-tree-from-preorder-traversal.cpp)|Hard|[week24_tree3](week24_tree3)
 -|[1029.Two City Scheduling](https://leetcode.com/problems/two-city-scheduling)||Easy|
 ✔|[1030.Matrix Cells in Distance Order](https://leetcode.com/problems/matrix-cells-in-distance-order)|[C++](week20_sort2/1030.matrix-cells-in-distance-order.cpp)|Easy|[week20_sort2](week20_sort2)
 -|[1031.Maximum Sum of Two Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays)||Medium|
