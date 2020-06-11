@@ -54,6 +54,11 @@ double STRING2NUMBER(const string &s) {
   return stod(s);
 }
 
+template <>
+string STRING2NUMBER(const string &s) {
+  return s;
+}
+
 template <typename T>
 void INPUT_ARRAY(vector<T> &vs) {
   string s;
@@ -69,13 +74,17 @@ void INPUT_ARRAY(vector<T> &vs) {
     int n;
     T data;
     stringstream ss;
-    ss << s;
-    ss >> n;
+    if (s.empty()) {
+      cin >> n;
+    } else {
+      ss << s;
+      ss >> n;
+    }
     while (n--) {
-      if (ss.eof())
+      ss >> data;
+      if (ss.eof()) {
         cin >> data;
-      else
-        ss >> data;
+      }
       vs.push_back(data);
     }
   }
@@ -143,6 +152,19 @@ void INPUT_ARRAY2D(vector<vector<T>> &vs) {
 
 template <typename T>
 void PRINT_ARRAY(const vector<T> &vs) {
+  bool first = true;
+  for (const T &data : vs) {
+    if (!first)
+      cout << ", ";
+    else
+      first = false;
+    cout << data;
+  }
+  cout << endl;
+}
+
+template <typename T, size_t size>
+void PRINT_ARRAY(const array<T, size> &vs) {
   bool first = true;
   for (const T &data : vs) {
     if (!first)
@@ -292,8 +314,10 @@ ListNode *Vector2List(const vector<T> &vec) {
 
 template <typename T>
 void PRINT_MATRIX(const vector<vector<T>> &mat) {
-  int row = mat.size();
-  int col = mat[0].size();
+  const int row = mat.size();
+  if (row == 0) return;
+  const int col = mat[0].size();
+  if (col == 0) return;
   for (int r = 0; r < row; ++r) {
     bool first = true;
     for (int c = 0; c < col; ++c) {

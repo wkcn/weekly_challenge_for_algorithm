@@ -212,7 +212,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[209.Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum)||Medium|
 ✔|[210.Course Schedule II](https://leetcode.com/problems/course-schedule-ii)|[C++](week16_dfs_and_bfs2/210.course-schedule-ii.cpp)|Medium|[week16_dfs_and_bfs2](week16_dfs_and_bfs2)
 -|[211.Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word---data-structure-design)||Medium|
--|[212.Word Search II](https://leetcode.com/problems/word-search-ii)||Hard|
+✔|[212.Word Search II](https://leetcode.com/problems/word-search-ii)|[C++](week25_backtrack3/212.word-search-ii.cpp)|Hard|[week25_backtrack3](week25_backtrack3)
 ✔|[213.House Robber II](https://leetcode.com/problems/house-robber-ii)|[C++](week18_dynamic_programming2/213.house-robber-ii.cpp)|Medium|[week18_dynamic_programming2](week18_dynamic_programming2)
 -|[214.Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome)||Hard|
 -|[215.Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array)||Medium|
@@ -357,7 +357,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[354.Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes)||Hard|
 -|[355.Design Twitter](https://leetcode.com/problems/design-twitter)||Medium|
 -|[356.Line Reflection](https://leetcode.com/problems/line-reflection)||Medium|
--|[357.Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits)||Medium|
+✔|[357.Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits)|[C++](week25_backtrack3/357.count-numbers-with-unique-digits.cpp)|Medium|[week25_backtrack3](week25_backtrack3)
 -|[358.Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart)||Hard|
 -|[359.Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter)||Easy|
 -|[360.Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array)||Medium|
@@ -691,7 +691,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[688.Knight Probability in Chessboard](https://leetcode.com/problems/knight-probability-in-chessboard)||Medium|
 -|[689.Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays)||Hard|
 ✔|[690.Employee Importance](https://leetcode.com/problems/employee-importance)|[C++](week19_stack/690.employee-importance.cpp)|Easy|[week19_stack](week19_stack)
--|[691.Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word)||Hard|
+✔|[691.Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word)|[C++](week25_backtrack3/691.stickers-to-spell-word.cpp)|Hard|[week25_backtrack3](week25_backtrack3)
 -|[692.Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)||Medium|
 -|[693.Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)||Easy|
 -|[694.Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands)||Medium|
@@ -1077,7 +1077,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1076.Project Employees II](https://leetcode.com/problems/project-employees-ii)||Easy|
 -|[1077.Project Employees III](https://leetcode.com/problems/project-employees-iii)||Medium|
 -|[1078.Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram)||Easy|
--|[1079.Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities)||Medium|
+✔|[1079.Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities)|[C++](week25_backtrack3/1079.letter-tile-possibilities.cpp)|Medium|[week25_backtrack3](week25_backtrack3)
 -|[1080.Insufficient Nodes in Root to Leaf Paths](https://leetcode.com/problems/insufficient-nodes-in-root-to-leaf-paths)||Medium|
 -|[1081.Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters)||Medium|
 -|[1082.Sales Analysis I](https://leetcode.com/problems/sales-analysis-i)||Easy|
@@ -1217,7 +1217,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1216.Valid Palindrome III](https://leetcode.com/problems/valid-palindrome-iii)||Hard|
 -|[1217.Play with Chips](https://leetcode.com/problems/play-with-chips)||Easy|
 -|[1218.Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference)||Medium|
--|[1219.Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold)||Medium|
+✔|[1219.Path with Maximum Gold](https://leetcode.com/problems/path-with-maximum-gold)|[C++](week25_backtrack3/1219.path-with-maximum-gold.cpp)|Medium|[week25_backtrack3](week25_backtrack3)
 -|[1220.Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation)||Hard|
 -|[1221.Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings)||Easy|
 -|[1222.Queens That Can Attack the King](https://leetcode.com/problems/queens-that-can-attack-the-king)||Medium|
