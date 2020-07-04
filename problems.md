@@ -58,7 +58,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[55.Jump Game](https://leetcode.com/problems/jump-game)|[C++](week7_greedy/55.jump-game.cpp)|Medium|[week7_greedy](week7_greedy)
 ✔|[56.Merge Intervals](https://leetcode.com/problems/merge-intervals)|[C++](week1_array/56.merge_intervals.cpp)|Medium|[week1_array](week1_array)
 ✔|[57.Insert Interval](https://leetcode.com/problems/insert-interval)|[Rust](week12_array2/57-insert-interval.rs)|Hard|[week12_array2](week12_array2)
--|[58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)||Easy|
+✔|[58.Length of Last Word](https://leetcode.com/problems/length-of-last-word)|[C++](week26_string2/58.length-of-last-word.cpp)|Easy|[week26_string2](week26_string2)
 ✔|[59.Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Rust](week12_array2/59-spiral-matrix-ii.rs)|Medium|[week12_array2](week12_array2)
 ✔|[60.Permutation Sequence](https://leetcode.com/problems/permutation-sequence)|[C++](week15_backtrack2/60.permutation-sequence.cpp)|Medium|[week15_backtrack2](week15_backtrack2)
 ✔|[61.Rotate List](https://leetcode.com/problems/rotate-list)|[C++](week13_list2/61.rotate-list.cpp)|Medium|[week13_list2](week13_list2)
@@ -140,7 +140,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[137.Single Number II](https://leetcode.com/problems/single-number-ii)|[Rust](week11_bit_manipulation/137-single-number-ii.rs)|Medium|[week11_bit_manipulation](week11_bit_manipulation)
 ✔|[138.Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer)|[C++](week2_list/138.copy_random_list.cpp)|Medium|[week2_list](week2_list)
 ✔|[139.Word Break](https://leetcode.com/problems/word-break)|[C++](week6_dynamic_programming/139.word-break.cpp)|Medium|[week6_dynamic_programming](week6_dynamic_programming)
--|[140.Word Break II](https://leetcode.com/problems/word-break-ii)||Hard|
+✔|[140.Word Break II](https://leetcode.com/problems/word-break-ii)|[C++](week25_backtrack3/140.word-break-ii.cpp)|Hard|[week25_backtrack3](week25_backtrack3)
 ✔|[141.Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)|[C++](week13_list2/141.linked-list-cycle.cpp)|Easy|[week13_list2](week13_list2)
 ✔|[142.Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii)|[C++](week2_list/142.detect_cycle_list.cpp)|Medium|[week2_list](week2_list)
 ✔|[143.Reorder List](https://leetcode.com/problems/reorder-list)|[C++](week23_list3/143.reorder-list.cpp)|Medium|[week23_list3](week23_list3)
@@ -468,7 +468,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[465.Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing)||Hard|
 -|[466.Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)||Hard|
 -|[467.Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string)||Medium|
--|[468.Validate IP Address](https://leetcode.com/problems/validate-ip-address)||Medium|
+✔|[468.Validate IP Address](https://leetcode.com/problems/validate-ip-address)|[C++](week26_string2/468.validate-ip-address.cpp)|Medium|[week26_string2](week26_string2)
 -|[469.Convex Polygon](https://leetcode.com/problems/convex-polygon)||Medium|
 -|[470.Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7)||Medium|
 -|[471.Encode String with Shortest Length](https://leetcode.com/problems/encode-string-with-shortest-length)||Hard|
@@ -521,7 +521,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[518.Coin Change 2](https://leetcode.com/problems/coin-change-2)||Medium|
 -|[519.Random Flip Matrix](https://leetcode.com/problems/random-flip-matrix)||Medium|
 ✔|[520.Detect Capital](https://leetcode.com/problems/detect-capital)|[C++](week17_string/520.detect-capital.cpp)|Easy|[week17_string](week17_string)
--|[521.Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i)||Easy|
+✔|[521.Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i)|[C++](week26_string2/521.longest-uncommon-subsequence-i.cpp)|Easy|[week26_string2](week26_string2)
 -|[522.Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii)||Medium|
 -|[523.Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum)||Medium|
 ✔|[524.Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting)|[C++](week20_sort2/524.longest-word-in-dictionary-through-deleting.cpp)|Medium|[week20_sort2](week20_sort2)
@@ -709,7 +709,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[706.Design HashMap](https://leetcode.com/problems/design-hashmap)||Easy|
 -|[707.Design Linked List](https://leetcode.com/problems/design-linked-list)||Medium|
 -|[708.Insert into a Sorted Circular Linked List](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list)||Medium|
--|[709.To Lower Case](https://leetcode.com/problems/to-lower-case)||Easy|
+✔|[709.To Lower Case](https://leetcode.com/problems/to-lower-case)|[C++](week26_string2/709.to-lower-case.cpp)|Easy|[week26_string2](week26_string2)
 ✔|[710.Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist)|[C++](week20_sort2/710.random-pick-with-blacklist.cpp)|Hard|[week20_sort2](week20_sort2)
 -|[711.Number of Distinct Islands II](https://leetcode.com/problems/number-of-distinct-islands-ii)||Hard|
 -|[712.Minimum ASCII Delete Sum for Two Strings](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings)||Medium|
@@ -842,7 +842,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[839.Similar String Groups](https://leetcode.com/problems/similar-string-groups)||Hard|
 -|[840.Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid)||Easy|
 -|[841.Keys and Rooms](https://leetcode.com/problems/keys-and-rooms)||Medium|
--|[842.Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence)||Medium|
+✔|[842.Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence)|[C++](week25_backtrack3/842.split-array-into-fibonacci-sequence.cpp)|Medium|[week25_backtrack3](week25_backtrack3)
 -|[843.Guess the Word](https://leetcode.com/problems/guess-the-word)||Hard|
 ✔|[844.Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)|[C++](week19_stack/844.backspace-string-compare.cpp)|Easy|[week19_stack](week19_stack)
 -|[845.Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array)||Medium|
@@ -917,7 +917,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[914.X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards)||Easy|
 -|[915.Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals)||Medium|
 -|[916.Word Subsets](https://leetcode.com/problems/word-subsets)||Medium|
--|[917.Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters)||Easy|
+✔|[917.Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters)|[C++](week26_string2/917.reverse-only-letters.cpp)|Easy|[week26_string2](week26_string2)
 -|[918.Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray)||Medium|
 -|[919.Complete Binary Tree Inserter](https://leetcode.com/problems/complete-binary-tree-inserter)||Medium|
 -|[920.Number of Music Playlists](https://leetcode.com/problems/number-of-music-playlists)||Hard|
@@ -966,7 +966,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[963.Minimum Area Rectangle II](https://leetcode.com/problems/minimum-area-rectangle-ii)||Medium|
 -|[964.Least Operators to Express Number](https://leetcode.com/problems/least-operators-to-express-number)||Hard|
 -|[965.Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree)||Easy|
--|[966.Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker)||Medium|
+✔|[966.Vowel Spellchecker](https://leetcode.com/problems/vowel-spellchecker)|[C++](week26_string2/966.vowel-spellchecker.cpp)|Medium|[week26_string2](week26_string2)
 -|[967.Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences)||Medium|
 -|[968.Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras)||Hard|
 ✔|[969.Pancake Sorting](https://leetcode.com/problems/pancake-sorting)|[C++](week20_sort2/969.pancake-sorting.cpp)|Medium|[week20_sort2](week20_sort2)
@@ -1231,7 +1231,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1230.Toss Strange Coins](https://leetcode.com/problems/toss-strange-coins)||Medium|
 -|[1231.Divide Chocolate](https://leetcode.com/problems/divide-chocolate)||Hard|
 -|[1232.Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line)||Easy|
--|[1233.Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem)||Medium|
+✔|[1233.Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem)|[C++](week26_string2/1233.remove-sub-folders-from-the-filesystem.cpp)|Medium|[week26_string2](week26_string2)
 -|[1234.Replace the Substring for Balanced String](https://leetcode.com/problems/replace-the-substring-for-balanced-string)||Medium|
 -|[1235.Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling)||Hard|
 -|[1236.Web Crawler](https://leetcode.com/problems/web-crawler)||Medium|

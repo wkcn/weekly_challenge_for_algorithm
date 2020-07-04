@@ -2,7 +2,7 @@
 // 方法1是方法2的优化
 #include "common.h"
 
-#define SOLUTION 2
+#define SOLUTION 3
 
 #if SOLUTION == 1
 class Solution {
@@ -58,6 +58,47 @@ public:
     }
     return vis[len];
   }
+};
+#elif SOLUTION == 3
+
+struct DNode {
+    array<DNode*, 26> nodes;
+    bool leaf;
+    DNode() : nodes{nullptr}, leaf(false) {
+
+    }
+};
+
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        const int n = s.size();
+        if (n == 0) return false;
+        DNode *root = new DNode();
+        for (string &s : wordDict) {
+            DNode *r = root;
+            for (char &c : s) {
+                DNode *&u = r->nodes[c - 'a'];
+                if (!u) u = new DNode();
+                r = u;
+            }
+            r->leaf = true;
+        }
+        // 注意是n+1
+        vector<bool> vis(n + 1, false);
+        vis[0] = true;
+        for (int i = 0; i < n; ++i) {
+            if (!vis[i]) continue;
+            DNode *r = root;
+            for (int t = i; t < n; ++t) {
+                r = r->nodes[s[t] - 'a'];
+                if (!r) break;
+                // t+1
+                if (r->leaf) vis[t+1] = true;
+            }
+        }
+        return vis.back();
+    }
 };
 #endif
 
