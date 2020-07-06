@@ -679,7 +679,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[676.Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary)||Medium|
 -|[677.Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs)||Medium|
 -|[678.Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string)||Medium|
--|[679.24 Game](https://leetcode.com/problems/24-game)||Hard|
+✔|[679.24 Game](https://leetcode.com/problems/24-game)|[C++](week27_array4/679.24-game.cpp)|Hard|[week27_array4](week27_array4)
 -|[680.Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)||Easy|
 -|[681.Next Closest Time](https://leetcode.com/problems/next-closest-time)||Medium|
 ✔|[682.Baseball Game](https://leetcode.com/problems/baseball-game)|[C++](week19_stack/682.baseball-game.cpp)|Easy|[week19_stack](week19_stack)
@@ -846,7 +846,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[843.Guess the Word](https://leetcode.com/problems/guess-the-word)||Hard|
 ✔|[844.Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)|[C++](week19_stack/844.backspace-string-compare.cpp)|Easy|[week19_stack](week19_stack)
 -|[845.Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array)||Medium|
--|[846.Hand of Straights](https://leetcode.com/problems/hand-of-straights)||Medium|
+✔|[846.Hand of Straights](https://leetcode.com/problems/hand-of-straights)|[C++](week27_array4/846.hand-of-straights.cpp)|Medium|[week27_array4](week27_array4)
 -|[847.Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes)||Hard|
 -|[848.Shifting Letters](https://leetcode.com/problems/shifting-letters)||Medium|
 -|[849.Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person)||Easy|
@@ -870,7 +870,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[867.Transpose Matrix](https://leetcode.com/problems/transpose-matrix)||Easy|
 -|[868.Binary Gap](https://leetcode.com/problems/binary-gap)||Easy|
 -|[869.Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2)||Medium|
--|[870.Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle)||Medium|
+✔|[870.Advantage Shuffle](https://leetcode.com/problems/advantage-shuffle)|[C++](week27_array4/870.advantage-shuffle.cpp)|Medium|[week27_array4](week27_array4)
 -|[871.Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops)||Hard|
 -|[872.Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees)||Easy|
 -|[873.Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence)||Medium|
@@ -914,7 +914,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[911.Online Election](https://leetcode.com/problems/online-election)||Medium|
 -|[912.Sort an Array](https://leetcode.com/problems/sort-an-array)||Medium|
 -|[913.Cat and Mouse](https://leetcode.com/problems/cat-and-mouse)||Hard|
--|[914.X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards)||Easy|
+✔|[914.X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards)|[C++](week27_array4/914.x-of-a-kind-in-a-deck-of-cards.cpp)|Easy|[week27_array4](week27_array4)
 -|[915.Partition Array into Disjoint Intervals](https://leetcode.com/problems/partition-array-into-disjoint-intervals)||Medium|
 -|[916.Word Subsets](https://leetcode.com/problems/word-subsets)||Medium|
 ✔|[917.Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters)|[C++](week26_string2/917.reverse-only-letters.cpp)|Easy|[week26_string2](week26_string2)
@@ -1126,7 +1126,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[1125.Smallest Sufficient Team](https://leetcode.com/problems/smallest-sufficient-team)|[C++](week21_bit_manipulation2/1125.smallest-sufficient-team.cpp)|Hard|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[1126.Active Businesses](https://leetcode.com/problems/active-businesses)||Medium|
 -|[1127.User Purchase Platform](https://leetcode.com/problems/user-purchase-platform)||Hard|
--|[1128.Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)||Easy|
+✔|[1128.Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)|[C++](week27_array4/1128.number-of-equivalent-domino-pairs.cpp)|Easy|[week27_array4](week27_array4)
 -|[1129.Shortest Path with Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors)||Medium|
 -|[1130.Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values)||Medium|
 -|[1131.Maximum of Absolute Value Expression](https://leetcode.com/problems/maximum-of-absolute-value-expression)||Medium|
@@ -1421,7 +1421,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1420.Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons)||Hard|
 -|[1421.NPV Queries](https://leetcode.com/problems/npv-queries)||Medium|
 -|[1422.Maximum Score After Splitting a String](https://leetcode.com/problems/maximum-score-after-splitting-a-string)||Easy|
--|[1423.Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards)||Medium|
+✔|[1423.Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards)|[C++](week27_array4/1423.maximum-points-you-can-obtain-from-cards.cpp)|Medium|[week27_array4](week27_array4)
 -|[1424.Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii)||Medium|
 -|[1425.Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum)||Hard|
 -|[1426.Counting Elements](https://leetcode.com/problems/counting-elements)||Easy|
