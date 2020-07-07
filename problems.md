@@ -464,7 +464,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[461.Hamming Distance](https://leetcode.com/problems/hamming-distance)|[Rust](week11_bit_manipulation/461-hamming-distance.rs)|Easy|[week11_bit_manipulation](week11_bit_manipulation)
 -|[462.Minimum Moves to Equal Array Elements II](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii)||Medium|
 -|[463.Island Perimeter](https://leetcode.com/problems/island-perimeter)||Easy|
--|[464.Can I Win](https://leetcode.com/problems/can-i-win)||Medium|
+✔|[464.Can I Win](https://leetcode.com/problems/can-i-win)|[Scala](week28_dynamic_programming3/464.can-i-win.scala)|Medium|[week28_dynamic_programming3](week28_dynamic_programming3)
 -|[465.Optimal Account Balancing](https://leetcode.com/problems/optimal-account-balancing)||Hard|
 -|[466.Count The Repetitions](https://leetcode.com/problems/count-the-repetitions)||Hard|
 -|[467.Unique Substrings in Wraparound String](https://leetcode.com/problems/unique-substrings-in-wraparound-string)||Medium|
@@ -1318,7 +1318,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1317.Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers)||Easy|
 -|[1318.Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c)||Medium|
 -|[1319.Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected)||Medium|
--|[1320.Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers)||Hard|
+✔|[1320.Minimum Distance to Type a Word Using Two Fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers)|[Scala](week28_dynamic_programming3/1320.minimum-distance-to-type-a-word-using-two-fingers.scala)|Hard|[week28_dynamic_programming3](week28_dynamic_programming3)
 -|[1321.Restaurant Growth](https://leetcode.com/problems/restaurant-growth)||Medium|
 -|[1322.Ads Performance](https://leetcode.com/problems/ads-performance)||Easy|
 -|[1323.Maximum 69 Number](https://leetcode.com/problems/maximum-69-number)||Easy|

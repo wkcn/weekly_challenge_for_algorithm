@@ -9,7 +9,7 @@ Thanks [@shicheng0829](https://github.com/shicheng0829), [@wkcn](https://github.
 
 ## Progress
 ```
- 17%|███████▉                                      | 252/1456 [4704:00:00<22474:40:00, 67200.00s/it]
+ 17%|████████                                      | 254/1456 [4704:00:00<22260:39:41, 66670.87s/it]
 ```
 [[Problem List]](./problems.md)
 
