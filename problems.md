@@ -392,7 +392,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[389.Find the Difference](https://leetcode.com/problems/find-the-difference)|[C++](week21_bit_manipulation2/389.find-the-difference.cpp)|Easy|[week21_bit_manipulation2](week21_bit_manipulation2)
 -|[390.Elimination Game](https://leetcode.com/problems/elimination-game)||Medium|
 -|[391.Perfect Rectangle](https://leetcode.com/problems/perfect-rectangle)||Hard|
--|[392.Is Subsequence](https://leetcode.com/problems/is-subsequence)||Easy|
+✔|[392.Is Subsequence](https://leetcode.com/problems/is-subsequence)|[Scala](week28_dynamic_programming3/392.is-subsequence.scala)|Easy|[week28_dynamic_programming3](week28_dynamic_programming3)
 -|[393.UTF-8 Validation](https://leetcode.com/problems/utf-8-validation)||Medium|
 ✔|[394.Decode String](https://leetcode.com/problems/decode-string)|[C++](week5_dfs_and_bfs/394.decode-string.cpp)|Medium|[week5_dfs_and_bfs](week5_dfs_and_bfs)
 -|[395.Longest Substring with At Least K Repeating Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters)||Medium|
@@ -740,13 +740,13 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[737.Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii)||Medium|
 -|[738.Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits)||Medium|
 -|[739.Daily Temperatures](https://leetcode.com/problems/daily-temperatures)||Medium|
--|[740.Delete and Earn](https://leetcode.com/problems/delete-and-earn)||Medium|
+✔|[740.Delete and Earn](https://leetcode.com/problems/delete-and-earn)|[Scala](week28_dynamic_programming3/740.delete-and-earn.scala)|Medium|[week28_dynamic_programming3](week28_dynamic_programming3)
 -|[741.Cherry Pickup](https://leetcode.com/problems/cherry-pickup)||Hard|
 -|[742.Closest Leaf in a Binary Tree](https://leetcode.com/problems/closest-leaf-in-a-binary-tree)||Medium|
 ✔|[743.Network Delay Time](https://leetcode.com/problems/network-delay-time)|[C++](week16_dfs_and_bfs2/743.network-delay-time.cpp)|Medium|[week16_dfs_and_bfs2](week16_dfs_and_bfs2)
 -|[744.Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)||Easy|
 -|[745.Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search)||Hard|
--|[746.Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)||Easy|
+✔|[746.Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs)|[Scala](week28_dynamic_programming3/746.min-cost-climbing-stairs.scala)|Easy|[week28_dynamic_programming3](week28_dynamic_programming3)
 -|[747.Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others)||Easy|
 -|[748.Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word)||Easy|
 -|[749.Contain Virus](https://leetcode.com/problems/contain-virus)||Hard|
@@ -1025,7 +1025,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[1022.Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers)|[C++](week24_tree3/1022.sum-of-root-to-leaf-binary-numbers.cpp)|Easy|[week24_tree3](week24_tree3)
 -|[1023.Camelcase Matching](https://leetcode.com/problems/camelcase-matching)||Medium|
 -|[1024.Video Stitching](https://leetcode.com/problems/video-stitching)||Medium|
--|[1025.Divisor Game](https://leetcode.com/problems/divisor-game)||Easy|
+✔|[1025.Divisor Game](https://leetcode.com/problems/divisor-game)|[Scala](week28_dynamic_programming3/1025.divisor-game.scala)|Easy|[week28_dynamic_programming3](week28_dynamic_programming3)
 ✔|[1026.Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor)|[C++](week24_tree3/1026.maximum-difference-between-node-and-ancestor.cpp)|Medium|[week24_tree3](week24_tree3)
 -|[1027.Longest Arithmetic Sequence](https://leetcode.com/problems/longest-arithmetic-sequence)||Medium|
 ✔|[1028.Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal)|[C++](week24_tree3/1028.recover-a-tree-from-preorder-traversal.cpp)|Hard|[week24_tree3](week24_tree3)

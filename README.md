@@ -9,11 +9,13 @@ Thanks [@shicheng0829](https://github.com/shicheng0829), [@wkcn](https://github.
 
 ## Progress
 ```
- 17%|███████▊                                      | 248/1456 [4536:00:00<22094:42:34, 65845.16s/it]
+ 17%|███████▉                                      | 252/1456 [4704:00:00<22474:40:00, 67200.00s/it]
 ```
 [[Problem List]](./problems.md)
 
 ## Topics
+
+[Week 28 - Dynamic Programming3](./week28_dynamic_programming3)
 
 [Week 27 - Array4](./week27_array4)
 

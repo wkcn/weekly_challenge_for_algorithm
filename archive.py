@@ -3,7 +3,9 @@ from tqdm import tqdm
 
 EXTS = dict([
     ('.cpp', 'C++'),
+    ('.py', 'Python'),
     ('.rs', 'Rust'),
+    ('.scala', 'Scala'),
 ])
 
 class Problem:
